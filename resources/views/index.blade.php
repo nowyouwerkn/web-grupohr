@@ -44,41 +44,55 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-5 offset-md-1">
+            <div class="col-md-6 offset-md-1">
                 <h1>Vivir mejor comienza en casa.</h1>
                 <div class="d-flex justify-content-end">
                     <p>Nos esforzamos por hacer de su hogar un lugar que estará feliz de regresar todos los días. ¡Creemos juntos el interior de sus sueños!</p>
                 </div>
             </div>
+
+            <div class="col-md-3 offset-md-1">
+                <ul class="intro-menu">
+                    <li><a href="">Proyectos (120)</a></li>
+                    <li><a href="">Acerca de nosotros</a></li>
+                    <li><a href="">Contáctanos</a></li>
+                </ul>
+
+                <p>Grupo HR © 2024</p>
+            </div>
         </div>
     </div>
 </section>
 
-<section class="section-about">
-    <div class="scroll-text scroll-left">
-        <h1>Grupo HR</h1>
-    </div>
+<section class="section-about position-relative">
+
     
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
                     <hr>
-                    <h5>Acerca de nosotros</h5>
+                    <h5 class="body-large">Acerca de nosotros</h5>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-6">
-                <h2>La premisa de nuestro trabajo de diseño es la voluntad de diseñar.</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>El objetivo de cada trabajo de construcción es encontrar una expresión que vaya más allá de lo necesario. Los proyectos se desarrollan dentro de su contexto cultural y reflejan las características específicas de su situación.</p>
+                <div class="sticky-content-block">
+                    <div class="scroll-text scroll-left">
+                        <h1 class="display-1 outline-text">Grupo HR</h1>
                     </div>
-                    <div class="col-md-6">
-                        <p>Los atributos funcionales de nuestros diseños y la durabilidad de la construcción son la base para un uso económico, además de ecológico, de los recursos disponibles.</p>
-                        <p>Por ello, para nuestro despacho concede gran importancia a la selección de los materiales adecuados y a garantizar la calidad artesanal de todos los trabajos de construcción, hasta el más mínimo detalle.</p>
+
+                    <h2 class="h3 std-mb std-hug">La premisa de nuestro trabajo de diseño es la voluntad de diseñar.</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="body-regular">El objetivo de cada trabajo de construcción es encontrar una expresión que vaya más allá de lo necesario. Los proyectos se desarrollan dentro de su contexto cultural y reflejan las características específicas de su situación.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="body-regular mb-3">Los atributos funcionales de nuestros diseños y la durabilidad de la construcción son la base para un uso económico, además de ecológico, de los recursos disponibles.</p>
+                            <p class="body-regular">Por ello, para nuestro despacho concede gran importancia a la selección de los materiales adecuados y a garantizar la calidad artesanal de todos los trabajos de construcción, hasta el más mínimo detalle.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -86,19 +100,19 @@
             <div class="col-md-6">
                 <div class="about-image-gallery">
                     <div class="image-wrap">
-                        <img src="{{ asset('img/about-us-1.png') }}" alt="" class="img-fluid">
+                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
                     </div>
                     <div class="image-wrap">
-                        <img src="{{ asset('img/about-us-1.png') }}" alt="" class="img-fluid">
+                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
                     </div>
                     <div class="image-wrap">
-                        <img src="{{ asset('img/about-us-1.png') }}" alt="" class="img-fluid">
+                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
                     </div>
                     <div class="image-wrap">
-                        <img src="{{ asset('img/about-us-1.png') }}" alt="" class="img-fluid">
+                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
                     </div>
                     <div class="image-wrap">
-                        <img src="{{ asset('img/about-us-1.png') }}" alt="" class="img-fluid">
+                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -112,7 +126,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>Descubre nuestro showroom <span class="dot"></span></h2>
+                <h2 class="h4">Descubre nuestro showroom <span class="dot"></span></h2>
             </div>
         </div>
     </div>

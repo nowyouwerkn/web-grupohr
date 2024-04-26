@@ -39,10 +39,10 @@
     <div class="container">
         <div class="row align-items-center justify-content-end">
             <div class="col-md-4">
-                <a href="{{ route('index') }}"><img src="{{ asset('img/logo_black.svg') }}" alt="" class="img-fluid"></a>
+                <a href="{{ route('index') }}"><img class="footer-logo" src="{{ asset('img/logo_black.svg') }}" alt=""></a>
             </div>
             <div class="col-md-4 text-center">
-                <p>Grupo HR© {{ Carbon\Carbon::now()->format('Y') }}. Todos los derechos reservados.</p>
+                <p class="p mb-0 copyright-text">Grupo HR© {{ Carbon\Carbon::now()->format('Y') }}. Todos los derechos reservados.</p>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-icons">

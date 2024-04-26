@@ -2,23 +2,35 @@
     <div class="left-nav">
         <div class="sidebar-menu">
             <div class="sidebar-element">
-                <a href="{{ route('index') }}"><h4><span>01</span> Inicio</h4></a>
+                <a href="{{ route('index') }}">
+                    <div class="hover-block"></div>
+                    <h4 class="h3"><span class="body-large bold">01</span> Inicio</h4>
+                </a>
             </div>
 
             <div class="sidebar-element">
-                <a href="{{ route('projects') }}"><h4><span>02</span> Proyectos</h4></a>
+                <a href="{{ route('projects') }}">
+                    <div class="hover-block"></div>
+                    <h4 class="h3"><span class="body-large bold">02</span> Proyectos</h4>
+                </a>
             </div>
 
             <div class="sidebar-element">
-                <a href="{{ route('about.us') }}"><h4><span>03</span> Acerca de</h4></a>
+                <a href="{{ route('about.us') }}">
+                    <div class="hover-block"></div>
+                    <h4 class="h3"><span class="body-large bold">03</span> Acerca de</h4>
+                </a>
             </div>
 
             <div class="sidebar-element">
-                <a href="{{ route('contact') }}"><h4><span>04</span> Contacto</h4></a>
+                <a href="{{ route('contact') }}">
+                    <div class="hover-block"></div>
+                    <h4 class="h3"><span class="body-large bold">04</span> Contacto</h4>
+                </a>
             </div>
         </div>
 
-        <h2>Proyectos Grupo HR</h2>
+        <h2 class="display-1 outline-text">Proyectos</h2>
     </div>
 
     <div class="right-nav">
