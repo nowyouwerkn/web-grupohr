@@ -298,6 +298,11 @@ class FrontController extends Controller
         ->with('gallery', $gallery);
     }
 
+    public function contact()
+    {
+        return view('contact');
+    }
+
     public function terms()
     {
         $text = 'Terminos y Condiciones';

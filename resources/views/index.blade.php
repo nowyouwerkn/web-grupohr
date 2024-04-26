@@ -143,49 +143,54 @@
             </div>
         </div>
 
-        <div class="owl-carousel product-carousel">
-            <div class="item">
-                <div class="image-wrap">
-                    <img src="{{ asset('img/product-placeholder.png') }}" alt="">
-                </div>
-
-                <div class="product-info">
-                    <ul class="list-unstyled">
-                        <li>Vergel de la Sierra, Guanajuato</li>
-                        <li>Residencial, Privado</li>
-                        <li>2022</li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div class="item">
-                <div class="image-wrap">
-                    <img src="{{ asset('img/product-placeholder.png') }}" alt="">
-                </div>
-
-                <div class="product-info">
-                    <ul class="list-unstyled">
-                        <li>Vergel de la Sierra, Guanajuato</li>
-                        <li>Residencial, Privado</li>
-                        <li>2022</li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div class="item">
-                <div class="image-wrap">
-                    <img src="{{ asset('img/product-placeholder.png') }}" alt="">
-                </div>
-
-                <div class="product-info">
-                    <ul class="list-unstyled">
-                        <li>Vergel de la Sierra, Guanajuato</li>
-                        <li>Residencial, Privado</li>
-                        <li>2022</li>
-                    </ul>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="owl-carousel product-carousel">
+                    <div class="item">
+                        <div class="image-wrap">
+                            <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                        </div>
+        
+                        <div class="product-info">
+                            <ul class="list-unstyled">
+                                <li>Vergel de la Sierra, Guanajuato</li>
+                                <li>Residencial, Privado</li>
+                                <li>2022</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="item">
+                        <div class="image-wrap">
+                            <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                        </div>
+        
+                        <div class="product-info">
+                            <ul class="list-unstyled">
+                                <li>Vergel de la Sierra, Guanajuato</li>
+                                <li>Residencial, Privado</li>
+                                <li>2022</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="item">
+                        <div class="image-wrap">
+                            <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                        </div>
+        
+                        <div class="product-info">
+                            <ul class="list-unstyled">
+                                <li>Vergel de la Sierra, Guanajuato</li>
+                                <li>Residencial, Privado</li>
+                                <li>2022</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        
 
         <div class="row align-items-end">
             <div class="col-md-8">
@@ -238,7 +243,7 @@
     margin:30,
     nav:true,
     dots:true,
-    items:3,
+    items:1,
   });
 </script>
 @endpush

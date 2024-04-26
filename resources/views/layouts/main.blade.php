@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Grupo HR</title>
-    <meta name="description" content="El objetivo de cada trabajo de construcción es encontrar una expresión que vaya más allá de lo necesario..">
+    <meta name="description" content="Proporcionar un servicio integral en el ramo de la construcción, proveyendo servicios y productos para satisfacer las necesidades de nuestros clientes a través de la experiencia de nuestro equipo de trabajo y la calidad de nuestros productos.">
     <meta name="keywords" content="diseño, interiores, diseño de interiores">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -21,7 +21,7 @@
     <meta property="og:image:height" content="266">
     <meta property="og:image:width" content="508">
     <meta property="og:title" content="Grupo HR">
-    <meta property="og:description" content="Los proyectos se desarrollan dentro de su contexto cultural y reflejan las características específicas de su situación.">
+    <meta property="og:description" content="Proporcionar un servicio integral en el ramo de la construcción, proveyendo servicios y productos para satisfacer las necesidades de nuestros clientes a través de la experiencia de nuestro equipo de trabajo y la calidad de nuestros productos.">
     <meta property="og:url" content="www.grupohr.mx">
     <meta property="og:image" content="www.grupohr.mx/tile-wide.png">
     
@@ -36,7 +36,9 @@
   <body>
     <main>
         @include('layouts.header')
+        @include('layouts.utilities._main_nav')
         @yield('content')
+        
         @include('layouts.footer')
     </main>
     

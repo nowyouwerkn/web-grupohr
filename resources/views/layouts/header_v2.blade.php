@@ -1,4 +1,4 @@
-<div class="main-nav">
+<div class="nav">
     <div class="container">
         <div class="row align-items-center justify-content-end">
             <div class="col-md-4">
@@ -14,7 +14,7 @@
             </div>
             <div class="col-md-4">
                 <div class="d-flex align-items-center justify-content-end">
-                    <button class="btn btn-primary">Menu</button>
+                    <button onclick="toggleMenu()" class="btn btn-primary">Menu</button>
                 </div>
             </div>
         </div>

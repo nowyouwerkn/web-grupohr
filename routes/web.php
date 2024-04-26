@@ -24,6 +24,11 @@ Route::namespace('App\Http\Controllers')->group(function () {
         'as' => 'projects.detail'
     ])->where('slug', '[\w\d\-\_]+');
 
+    Route::get('/contacto', [
+        'uses' => 'FrontController@contact',
+        'as' => 'contact',
+    ]);
+
     /* Pantallas Generales */
     Route::get('/terminos-y-condiciones', [
         'uses' => 'FrontController@terms',
