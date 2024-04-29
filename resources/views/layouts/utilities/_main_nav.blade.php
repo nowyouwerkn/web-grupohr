@@ -36,14 +36,15 @@
     <div class="right-nav">
         <a href="javascript:void(0)" class="close-btn"><ion-icon name="close-outline"></ion-icon></a>
 
-        <div class="d-flex flex-column align-content-around flex-wrap text-center">
+        <div class="d-flex flex-column align-content-around">
             <img class="logo-nav" src="{{ asset('img/logo_white.svg') }}" alt="">
 
             <div class="mt-auto mb-auto">
                 <p>Granjas Ceres 109, 37289 <br>León de los Aldama, Gto.</p>
                 <p><a href="">(477) 555 55 55</a></p>
                 <p><a href="">proyectos@grupohr.com</a></p>
-    
+                
+                <a href="" class="btn btn-primary">Encuéntranos en el mapa</a>
             </div>
             
             <p class="mt-auto">Grupo HR © {{ Carbon\Carbon::now()->format('Y') }}</p>

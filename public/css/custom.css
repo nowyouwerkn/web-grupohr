@@ -112,6 +112,14 @@ a:focus-visible {
     line-height: 130%;
 }
 
+.h6{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 36px */
+    letter-spacing: -2px;
+}
+
 .bold{
     font-weight: 700;
 }
@@ -149,6 +157,10 @@ a:focus-visible {
     color: transparent;
 }
 
+.opacity-text{
+    opacity: .5;
+}
+
 /* Standard text separators */
 .std-mb{
     margin-bottom: 30px;
@@ -156,6 +168,25 @@ a:focus-visible {
 
 .std-hug{
     padding-bottom: 30px;
+}
+
+/* Offset title */
+.offset-title w{
+    display: block;
+    padding-left: 5%;
+    line-height: 90%;
+    margin-bottom: -1%;
+}
+
+.dot{
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+    width: 15px;
+    height: 15px;
+    background-color: var(--main);
+    border-radius: 100%;
+    margin-left: -5px;
 }
 
 /* Custom Cursor */
@@ -170,6 +201,7 @@ a:focus-visible {
     border-radius: 80%;
     backface-visibility: hidden;
     mix-blend-mode: multiply;
+    z-index: 1;
 }
 
 /* Button Styles */
@@ -297,7 +329,7 @@ a:focus-visible {
 	height: 100vh;
 	right: -50%;
     top: 0px;
-	padding: 80px 50px;
+	padding: 80px 120px;
     color: #fff;
 	background: url(../img/grupohr-bg.png);
 	background-size: cover;
@@ -306,7 +338,7 @@ a:focus-visible {
 	transition: 1s ease-in-out all;
     overflow: hidden;
 	z-index: 3000;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 40px 0px 0px 40px;
 }
 
 .right-nav .overlay{
@@ -329,18 +361,18 @@ a:focus-visible {
 	color: #fff;
 }
 
-.right-nav h4{
-	margin-bottom: 30px;
-}
-
 .right-nav p{
-	opacity: .8;
-	margin-bottom: 50px;
+	margin-bottom: 32px;
+    font-size: 18px;
 }
 
 .right-nav img{
-	width: 160px;
-	margin: 0 auto;
+	width: 250px;
+}
+
+.right-nav .btn-primary{
+    margin-top: 50px;
+    border-color: var(--white);
 }
 
 .right-nav ul li{
@@ -362,7 +394,7 @@ a:focus-visible {
 
 .right-nav .close-btn{
 	background-color: #fff;
-	color: #A75E41;
+	color: var(--black);
 	border:3px solid #fff;
 	width: 60px;
 	height: 60px;
@@ -370,8 +402,10 @@ a:focus-visible {
 	text-align: center;
 	line-height: 60px;
 	font-size: 1.2em;
-	position: relative;
+	position: absolute;
 	z-index: 4;
+    top: 60px;
+    right: 60px;
 	display: block;
 }
 
@@ -454,6 +488,8 @@ body.toggled .right-nav{
     border-radius: 100%;
     display: inline-block;
     margin: 0px 5px;
+    z-index: 10;
+    position: relative;
 }
 
 .owl-next{
@@ -474,6 +510,7 @@ body.toggled .right-nav{
     left: 50%;
     bottom: 40px;
     transform: translateX(-50%);
+    z-index: 10;
 }
 
 .owl-dot{
@@ -513,11 +550,64 @@ body.toggled .right-nav{
 /* Section Intro */
 .intro-carousel .banner-info{
     position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    left: 0px;
+    color: var(--white);
+    padding-bottom: 110px;
+    padding-left: 60px;
+}
+
+.banner-info p span{
+    margin-right: 20px;
+}
+
+.banner-info .big-num{
+    -webkit-text-stroke: 1px var(--white);
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    opacity: .4;
+}
+
+
+.intro-carousel .owl-nav{
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+}
+
+.section-intro .h2{
+    font-size: 120px;
+}
+
+.separator-border-effect{
+    position: relative;
+    z-index: 1;
+}
+
+.section-intro .separator-border-effect .overlay-separator{
+    background-color: var(--white);
+    border-radius: 0px 40px 0px 0px;
+    height: 90px;
+    width: 40%;
+    margin-top: -90px;
+}
+
+.intro-menu a{
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 14px 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 18.2px */
+    letter-spacing: -0.2px;
 }
 
 .section-about .sticky-content-block{
     position: sticky;
-    top: 40px;
+    top: 80px;
     padding-bottom: 40px;
 }
 
@@ -575,6 +665,154 @@ body.toggled .right-nav{
     margin-bottom: 50px !important;
 }
 
+/* Showroom CTA */
+.section-showroom-cta{
+    margin-top: 90px;
+}
+
+.showroom-carousel .owl-dots{
+    left: 120px;
+}
+
+.showroom-carousel .owl-nav{
+    right: 35%;
+}
+
+.showroom-border-wrap{
+    background-color: var(--white);
+    border-radius: 0px 0px 40px 0px;
+    padding: 50px;
+    padding-right: 120px;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+}
+
+.showroom-border-wrap:before{
+    content: "";
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    left: -10vw;
+    top: 0px;
+    background-color: var(--white);
+}
+
+.showroom-list-content{
+    background-color: var(--white);
+    padding: 50px;
+    padding-right: 120px;
+    border-radius: 40px 0px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.showroom-list-content:before{
+    content: "";
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    right: -10vw;
+    top: 0px;
+    background-color: var(--white);
+}
+
+.section-products{
+    margin-bottom: 120px;
+}
+
+.section-products .separator-border-effect .overlay-separator{
+    background-color: var(--white);
+    border-radius: 0px 40px 0px 0px;
+    height: 90px;
+    width: 30%;
+    margin-top: -90px;
+}
+
+
+.product-carousel .owl-stage-outer{
+    overflow: initial;
+}
+
+.product-carousel .image-wrap{
+    position: relative;
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.product-carousel .image-wrap img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 110%;
+    height: auto !important;
+}
+
+.product-carousel .owl-nav{
+    right: 40px;
+    bottom: 30px;
+}
+
+.product-carousel .product-info{
+    position: absolute;
+    bottom: -120px;
+    right: 30px;
+}
+
+
+.section-products .h3{
+    margin-top: -20px;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 65px;
+}
+
+/* Paginas Internas */
+
+.section-image-cover{
+    background: url(../img/about-us-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 45vh 0px 80px 30px;
+}
+
+.section-image-cover .offset-title{
+    color: var(--white);
+}
+
+.section-image-cover .content-block-overlay{
+    position: absolute;
+    background-color: var(--white);
+    border-radius: 40px 0px 0px 0px;
+    bottom: -80px;
+    right: 0px;
+    z-index: 2;
+    width: 35%;
+    padding: 50px 70px;
+    padding-right: 130px;
+}
+
+.content-block-overlay .btn-primary{
+    margin-top: 40px;
+}
+
+.content-block-overlay .top-text{
+    position: absolute;
+    top: -60px;
+    color: var(--white);
+}
+
+.top-text span{
+    margin-right: 15px;
+}
+
+
+/* Pie de Pagina */
 footer{
     padding: 50px 0px;
     background: var(--white);
@@ -594,4 +832,10 @@ footer .copyright-text{
 
 footer .social-icons{
     text-align: right;
+}
+
+.map-wrapper{
+    position: relative;
+    border-radius: 40px;
+    overflow: hidden;
 }

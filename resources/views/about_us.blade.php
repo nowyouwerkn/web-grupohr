@@ -7,14 +7,15 @@
 
 @section('content')
 <section class="section-image-cover">
-    <div class="container">
+    <div class="container position-relative">
         <div class="row">
-            <div class="col-md-5 offset-md-1">
-                <h2>Hacemos de los detalles de tu casa una realidad de ensueño.</h2>
+            <div class="col-md-6">
+                <h2 class="h3 offset-title">Hacemos de los detalles <w>de tu casa una</w> realidad de ensueño <span class="dot"></span></h2>
             </div>
         </div>
+
         <div class="content-block-overlay">
-            <p class="top-tex"><span>01</span> Casa Lomas - Restaurante Clásico Propuesta PVC</p>
+            <p class="top-text"><span>01</span> Casa Lomas - Restaurante Clásico Propuesta PVC</p>
             <p>Si tienes una visión, la construiremos. Desde proyectos modulares hasta proyectos personalizados, todos perfectamente sostenibles. Cada proyecto pensado para responder a tu visión arquitectónica.</p>
             <a href="" class="btn btn-primary">Descubre más</a>
         </div>

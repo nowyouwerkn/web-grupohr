@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="media d-flex">
-                            <img src="" alt="">
+                            <img src="{{ asset('img/user-face.png') }}" alt="">
                             <div>
                                 <p>Abogada</p>
                                 <p>Elizabeth Cracozia</p>

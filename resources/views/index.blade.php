@@ -13,7 +13,18 @@
                 <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
                     
                 <div class="banner-info">
-                    <span class="big-num">01</span>
+                    <span class="big-num display-1 outline-text">01</span>
+                    <p class="p"><span>01</span> Casa Lomas - Restaurante Clásico. Propuesta PVC</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="banner">
+                <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
+                    
+                <div class="banner-info">
+                    <span class="big-num display-1 outline-text">02</span>
                     <p><span>01</span> Casa Lomas - Restaurante Clásico. Propuesta PVC</p>
                 </div>
             </div>
@@ -24,41 +35,42 @@
                 <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
                     
                 <div class="banner-info">
-                    <span class="big-num">01</span>
-                    <p><span>01</span> Casa Lomas - Restaurante Clásico. Propuesta PVC</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="banner">
-                <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
-                    
-                <div class="banner-info">
-                    <span class="big-num">01</span>
+                    <span class="big-num display-1 outline-text">03</span>
                     <p><span>01</span> Casa Lomas - Restaurante Clásico. Propuesta PVC</p>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="separator-border-effect">
+        <div class="overlay-separator"></div>
+        <div class="curved-separator"></div>
+    </div>
+
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-6 offset-md-1">
-                <h1>Vivir mejor comienza en casa.</h1>
-                <div class="d-flex justify-content-end">
-                    <p>Nos esforzamos por hacer de su hogar un lugar que estará feliz de regresar todos los días. ¡Creemos juntos el interior de sus sueños!</p>
-                </div>
+                <h1 class="h2 offset-title">Vivir mejor <w>comienza</w> en casa <span class="dot"></span></h1>
             </div>
 
             <div class="col-md-3 offset-md-1">
-                <ul class="intro-menu">
-                    <li><a href="">Proyectos (120)</a></li>
-                    <li><a href="">Acerca de nosotros</a></li>
-                    <li><a href="">Contáctanos</a></li>
+                <ul class="list-unstyled intro-menu">
+                    <li><a href="{{ route('projects') }}">Proyectos (120)</a></li>
+                    <li><a href="{{ route('about.us') }}">Acerca de nosotros</a></li>
+                    <li><a href="{{ route('contact') }}">Contáctanos</a></li>
                 </ul>
+            </div>
+        </div>
 
-                <p>Grupo HR © 2024</p>
+        <div class="row align-items-end mt-5">
+            <div class="col-md-3 offset-md-3">
+                <div class="d-flex justify-content-end">
+                    <p class="pe-5">Nos esforzamos por hacer de su hogar un lugar que estará feliz de regresar todos los días. ¡Creemos juntos el interior de sus sueños!</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 offset-md-2">
+                <p class="opacity-text">Grupo HR © 2024</p>
             </div>
         </div>
     </div>
@@ -78,7 +90,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 pe-5">
                 <div class="sticky-content-block">
                     <div class="scroll-text scroll-left">
                         <h1 class="display-1 outline-text">Grupo HR</h1>
@@ -123,10 +135,12 @@
 @include('layouts.includes.clients_marquee')
 
 <section class="section-showroom-cta">
-    <div class="container">
+    <div class="container position-relative">
         <div class="row">
-            <div class="col-md-12">
-                <h2 class="h4">Descubre nuestro showroom <span class="dot"></span></h2>
+            <div class="col-md-5 position-relative">
+                <div class="showroom-border-wrap">
+                    <h2 class="h4">Descubre nuestro showroom <span class="dot"></span></h2>
+                </div>
             </div>
         </div>
     </div>
@@ -142,6 +156,23 @@
 
         <div class="item">
             <img src="{{ asset('img/showroom-placeholder.png') }}" alt="">
+        </div>
+    </div>
+
+    <div class="container position-relative">
+        <div class="row justify-content-end">
+            <div class="col-md-3 position-relative">
+                <div class="showroom-list-content">
+                    <h6 class="body-large bold text-uppercase">Showroom León</h6>
+                    <p>Granjas Ceres 109, 37289 León de los Aldama, Gto.</p>
+                    <p><a href="">477 555 55 55</a></p>
+                    <br>
+                    <br>
+                    <h6 class="body-large bold text-uppercase">Showroom San Miguel de Allende</h6>
+                    <p>Granjas Ceres 109, 37289 León de los Aldama, Gto.</p>
+                    <p><a href="">477 555 55 55</a></p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -204,19 +235,27 @@
                 </div>
             </div>
         </div>
-        
+    </div>
 
-        <div class="row align-items-end">
+    <div class="separator-border-effect">
+        <div class="overlay-separator"></div>
+        <div class="curved-separator"></div>
+    </div>
+
+    <div class="container">
+        <div class="row align-items-end ps-4">
             <div class="col-md-8">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h1>Cancelería de PVC <span class="dot"></span></h1>
+                    <div class="col-md-5">
+                        <h1 class="h3">Cancelería <br> de PVC <span class="dot"></span></h1>
                     </div>
+                </div>
 
-                    <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
                         <p>Nuestro producto TOP, ideal para conseguir excelente aislamiento acústico y térmico del exterior. En cuestión funcionalidad y diseño puedes elegir entre nuestras múltiples soluciones de aperturas que se adaptan a todos los espacios</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4 offset-md-1">
                         <p>Otro plus de este producto es la variedad de colores y texturas tipo madera que harán que tu proyecto arquitectónico se eleve a su máximo potencial estético. </p>
                     </div>
                 </div>
@@ -254,9 +293,9 @@
 
   $('.product-carousel').owlCarousel({
     loop:true,
-    margin:30,
+    margin:45,
     nav:true,
-    dots:true,
+    dots:false,
     items:1,
   });
 </script>
