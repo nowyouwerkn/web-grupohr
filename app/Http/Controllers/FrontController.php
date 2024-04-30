@@ -28,10 +28,10 @@ class FrontController extends Controller
                 $slug = $name;
 
                 $project_name = 'Casa Lomas';
-                $description = 'Habitación decorada con un hermoso estilo tradicional mexicano.';
+                $description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
                 
                 $content_title = 'Lujo en cada detalle.';
-                $content_subtitle = 'estilo clásico mexicano.';
+                $content_subtitle = 'estilo clásico moderno y atemporal.';
 
                 $main_p = [
                     'Servicio de Lavandería.',
@@ -132,14 +132,14 @@ class FrontController extends Controller
 
         return view('project_detail')
         ->with('slug', $slug)
-        ->with('project_name', $room_name)
+        ->with('project_name', $project_name)
         ->with('description', $description)
         ->with('content_title', $content_title)
         ->with('content_subtitle', $content_subtitle)
         ->with('main_p', $main_p)
         ->with('descriptive_p', $descriptive_p)
         ->with('characteristics', $characteristics)
-        ->with('project_images', $room_images)
+        ->with('project_images', $project_images)
         ->with('gallery', $gallery);
     }
 

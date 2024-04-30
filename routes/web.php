@@ -21,7 +21,7 @@ Route::namespace('App\Http\Controllers')->group(function () {
 
     Route::get('/proyectos/{slug}', [
         'uses' => 'FrontController@projectDetail',
-        'as' => 'projects.detail'
+        'as' => 'project.detail'
     ])->where('slug', '[\w\d\-\_]+');
 
     Route::get('/contacto', [

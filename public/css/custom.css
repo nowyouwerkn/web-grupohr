@@ -275,6 +275,7 @@ a:focus-visible {
     padding: 10px 0px;
     margin-top: 0px;
     border-bottom: 1px solid var(--black);
+    z-index: 99;
 }
 
 .nav.scroll .logo svg{
@@ -283,10 +284,12 @@ a:focus-visible {
 
 .nav.scroll svg path{
     fill: var(--black);
+    stroke: var(--black) !important;
 }
 
 .nav.scroll .brand-color{
     fill: var(--main) !important;
+    stroke: var(--main) !important;
 }
 
 .nav.scroll .btn-primary{
@@ -1110,8 +1113,9 @@ body.toggled .right-nav{
 
 .project-title{
     position: sticky;
-    top: 80px;
+    top: 50%;
     padding: 135px 60px 60px 0px;
+    transform: translateY(-50%);
 }
 
 .project-title p{
@@ -1133,9 +1137,35 @@ body.toggled .right-nav{
 
 .project-card-wrap img{
     position: absolute;
-    width: 100%;
+    height: 110%;
 }
 
+.project-card-wrap .project-info{
+    position: absolute;
+    bottom: 0px;
+    right: 5vw;
+    padding: 50px;
+    z-index: 2;
+    width: 30vw;
+    text-align: end;
+    color: var(--white);
+}
+
+.project-card-wrap .btn-primary{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.project-card-wrap .btn-primary:hover{
+    color: var(--black);
+}
+
+.section-content{
+    padding: 120px 0px;
+}
 
 /* Pie de Pagina */
 .pre-footer .h5{
@@ -1223,3 +1253,208 @@ footer .social-icons{
     text-align: right;
 }
 
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+
+}
+
+@media only screen and (min-width : 1400px) {    
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .container{
+        padding: 0px 20px;
+    }
+
+	/* Text Styles */
+	.display-1{
+		font-size: 50px;
+	}
+
+	.h1{
+		font-size: 48px;
+	}
+
+	.h2{
+		font-size: 40px;
+	}
+
+    .h3 {
+        font-size: 15vw;
+        letter-spacing: -5px;
+        line-height: 115%;
+    }
+
+	.h4{
+		font-size: 27px;
+	}
+
+	.h5{
+		font-size: 23px;
+	}
+
+	.h6{
+		font-size: 20px;
+	}
+
+	.p{
+		font-size: 16px;
+	}
+
+    .nav .social-icons{
+        display: none;
+    }
+    
+    .nav .logo svg{
+        width: 100%;
+    }
+
+    .intro-carousel img{
+        height: 100%;
+        width: auto !important;
+    }
+
+    .owl-dots {
+        left: 80px;
+        bottom: 120px;
+    }
+
+    .banner-info{
+        display: none;
+    }
+
+    .section-intro .h2{
+        font-size: 20vw;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+
+    .left-nav{
+        display: none;
+    }
+
+    .right-nav{
+        width: 100%;
+        padding: 80px 40px;
+        right: -100%;
+        border-radius: 0px;
+    }
+
+    .right-nav .close-btn {
+        top: 30px;
+        right: 30px;
+    }
+
+    .about-image-gallery{
+        margin-top: 60px;
+    }
+
+    .about-image-gallery .image-wrap{
+        height: 50vh;
+    }
+
+    .image-wrap img{
+        top: 0px;
+    }
+
+    .map-wrapper{
+        margin-bottom: 40px;
+    }
+
+    .product-carousel .image-wrap img{
+        height: 100% !important;
+        width: auto !important;
+    }
+
+    .section-products .h3{
+        margin-top: 40px;
+    }
+
+    .product-card .btn-primary{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .product-carousel{
+        margin-bottom: 120px;
+    }
+
+    .product-carousel .product-info {
+        position: absolute;
+        bottom: -130px;
+        right: initial;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .section-products .separator-border-effect{
+        display: none;
+    }
+
+    .product-card{
+        margin-bottom: 120px;
+    }
+
+    .showroom-carousel img{
+        height: 100% !important;
+        width: auto !important;
+    }
+    
+    .showroom-list-content{
+        position: relative;
+        padding-right: 50px;
+    }
+
+    .showroom-carousel .owl-dots{
+        display: none;
+    }
+
+    .showroom-border-wrap{
+        padding: 40px 20px;
+        position: relative;
+    }
+
+    .showroom-border-wrap .h4{
+        font-size: 9vw;
+        letter-spacing: -3px;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer .justify-content-end{
+        justify-content: center !important;
+    }
+
+    footer .footer-logo{
+        margin-bottom: 60px;
+    }
+    
+    footer .social-icons{
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
