@@ -76,8 +76,6 @@
 </section>
 
 <section class="section-about position-relative">
-
-    
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -134,6 +132,7 @@
 @include('layouts.includes.clients_marquee')
 
 <section class="section-showroom-cta">
+    {{-- 
     <div class="container position-relative">
         <div class="row">
             <div class="col-md-5 position-relative">
@@ -143,6 +142,7 @@
             </div>
         </div>
     </div>
+    --}}
 
     <div class="owl-carousel showroom-carousel">
         <div class="item">
@@ -162,12 +162,12 @@
         <div class="row justify-content-end">
             <div class="col-md-3 position-relative">
                 <div class="showroom-list-content">
-                    <h6 class="body-large bold text-uppercase">Showroom León</h6>
+                    <h6 class="body-large bold text-uppercase">Showroom <br><span>León</span></h6>
                     <p>Granjas Ceres 109, 37289 León de los Aldama, Gto.</p>
                     <p><a href="">477 555 55 55</a></p>
                     <br>
                     <br>
-                    <h6 class="body-large bold text-uppercase">Showroom San Miguel de Allende</h6>
+                    <h6 class="body-large bold text-uppercase">Showroom <br><span>San Miguel de Allende</span></h6>
                     <p>Granjas Ceres 109, 37289 León de los Aldama, Gto.</p>
                     <p><a href="">477 555 55 55</a></p>
                 </div>
@@ -181,8 +181,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h5>Nuestros Productos</h5>
                     <hr>
+                    <h5>Nuestros Productos</h5>
                 </div>
             </div>
         </div>
@@ -523,8 +523,8 @@
   $('.showroom-carousel').owlCarousel({
     loop:true,
     margin:30,
-    nav:true,
-    dots:true,
+    nav:false,
+    dots:false,
     items:1,
   });
 

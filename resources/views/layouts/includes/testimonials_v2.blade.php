@@ -20,8 +20,6 @@
                             <div class="item">
                                 <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
                                 
-                                <a href="" class="btn btn-primary">Descubre el proyecto</a>
-                                
                                 <div class="project-info">
                                     <h4 class="h6 mb-2">Proyecto Casa Limas</h4>
                                     <p>Un estilo atemporal y permanente que solamente puede lograrse con el ímpetu y compromiso de Grupo HR</p>
@@ -30,8 +28,6 @@
                     
                             <div class="item">
                                 <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
-                                
-                                <a href="" class="btn btn-primary">Descubre el proyecto</a>
                                 
                                 <div class="project-info">
                                     <h4 class="h6 mb-2">Proyecto Casa Limas</h4>
@@ -62,8 +58,6 @@
                             <div class="item">
                                 <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
                                 
-                                <a href="" class="btn btn-primary">Descubre el proyecto</a>
-                                
                                 <div class="project-info">
                                     <h4 class="h6 mb-2">Proyecto Casa Limas</h4>
                                     <p>Un estilo atemporal y permanente que solamente puede lograrse con el ímpetu y compromiso de Grupo HR</p>
@@ -72,8 +66,6 @@
                     
                             <div class="item">
                                 <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
-                                
-                                <a href="" class="btn btn-primary">Descubre el proyecto</a>
                                 
                                 <div class="project-info">
                                     <h4 class="h6 mb-2">Proyecto Casa Limas</h4>
@@ -104,8 +96,6 @@
                             <div class="item">
                                 <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
                                 
-                                <a href="" class="btn btn-primary">Descubre el proyecto</a>
-                                
                                 <div class="project-info">
                                     <h4 class="h6 mb-2">Proyecto Casa Limas</h4>
                                     <p>Un estilo atemporal y permanente que solamente puede lograrse con el ímpetu y compromiso de Grupo HR</p>
@@ -114,8 +104,6 @@
                     
                             <div class="item">
                                 <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
-                                
-                                <a href="" class="btn btn-primary">Descubre el proyecto</a>
                                 
                                 <div class="project-info">
                                     <h4 class="h6 mb-2">Proyecto Casa Limas</h4>

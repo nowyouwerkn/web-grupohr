@@ -35,7 +35,16 @@
 </head>
   <body>
     <main>
-        @include('layouts.header')
+        <a href="" target="_blank" id="contactBtnCode" class="floating-whatsapp">
+          <ion-icon name="logo-whatsapp" style="color: #ffffff;"></ion-icon>
+        </a>
+        
+        @if(request()->is('/'))
+          @include('layouts.header_v2')
+        @else
+          @include('layouts.header')
+        @endif
+
         @include('layouts.utilities._main_nav')
         @yield('content')
         
