@@ -80,8 +80,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
-                    <hr>
                     <h5 class="body-large">Acerca de nosotros</h5>
+                    <hr>
                 </div>
             </div>
         </div>
@@ -181,8 +181,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
+                    <h5 class="body-large">Nuestros Productos</h5>
                     <hr>
-                    <h5>Nuestros Productos</h5>
                 </div>
             </div>
         </div>

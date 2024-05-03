@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h5>Ponte en contacto con nosotros</h5>
+                    <h5 class="body-large">Ponte en contacto con nosotros</h5>
                     <hr>
                 </div>
             </div>

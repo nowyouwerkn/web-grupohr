@@ -1,5 +1,7 @@
 <div class="main-nav">
     <div class="left-nav">
+        <a href="javascript:void(0)" class="close-btn"><ion-icon name="close-outline"></ion-icon></a>
+        
         <div class="sidebar-menu">
             @if(request()->is('/'))
 

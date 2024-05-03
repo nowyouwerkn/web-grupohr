@@ -27,8 +27,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
+                    <h5 class="body-large">Acerca de Nosotros</h5>
                     <hr>
-                    <h5>Acerca de Nosotros</h5>
                 </div>
             </div>
         </div>
@@ -86,9 +86,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-title">
-                    <hr>
+                <div class="section-title" style="z-index: 1">
                     <h5>Nuestro Proceso</h5>
+                    <hr>
                 </div>
             </div>
 
