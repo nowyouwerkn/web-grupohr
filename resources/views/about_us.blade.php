@@ -10,14 +10,14 @@
     <div class="container position-relative">
         <div class="row">
             <div class="col-md-6">
-                <h2 class="h3 offset-title">Hacemos de los detalles <w>de tu casa una</w> realidad de ensueño <span class="dot"></span></h2>
+                <h2 class="h3 offset-title">Somos solucionadores integrales, <w>creemos en tu proyecto y que los logros </w> en equipo son los que verdaderamente importan. <span class="dot"></span></h2>
             </div>
         </div>
 
         <div class="content-block-overlay">
-            <p class="top-text"><span>01</span> Casa Lomas - Restaurante Clásico Propuesta PVC</p>
-            <p>Si tienes una visión, la construiremos. Desde proyectos modulares hasta proyectos personalizados, todos perfectamente sostenibles. Cada proyecto pensado para responder a tu visión arquitectónica.</p>
-            <a href="{{ route('projects') }}" class="btn btn-primary">Descubre los proyectos</a>
+            {{-- <p class="top-text"><span>01</span> Casa Lomas - Restaurante Clásico Propuesta PVC</p> --}}
+            <p>Buscamos mejorar e innovar hasta los más mínimos detalles, apoyándonos  siempre de  la estética y la funcionalidad, porque nuestro propósito es darle el toque final a tu espacio.</p>
+            <a href="{{ route('projects') }}" class="btn btn-primary">CONOCE NUESTROS PROYECTOS</a>
         </div>
     </div>
 </section>
@@ -36,7 +36,7 @@
         <div class="row justify-content-end">
             <div class="col-md-5 text-end pe-5">
                 <h3 class="h4 mb-4">Le damos el toque final a tu espacio</h3>
-                <p class="ps-4">Somos solucionadores integrales, creemos en tu proyecto y que los logros en equipo son los que verdaderamente importan.</p>
+                <p class="ps-4">Buscamos mejorar e innovar hasta los más mínimos detalles, apoyándonos  siempre de  la estética y la funcionalidad, porque nuestro propósito es darle el toque final a tu espacio.</p>
             </div>
         </div>
     
@@ -47,7 +47,9 @@
                 </div>
     
                 <div class="gallery-info">
-                    <p>Video promocional sobre nosotros. ¡Conócenos!</p>
+                     <li>Con 10 años de experiencia, en Grupo HR contamos</li> 
+                     <li>con más de 50 colaboradores en nuestro equipo para</li>
+                     <li>brindarte el trato profesional, formal y puntual que tu empresa se merece.</li>
                 </div>
             </div>
     
@@ -58,9 +60,10 @@
     
                 <div class="gallery-info">
                     <ul class="list-unstyled">
-                        <li>Vergel de la Sierra, Guanajuato</li>
-                        <li>Residencial, Privado</li>
-                        <li>2022</li>
+                        <li>Conoce nuestros showrooms en León, Gto y San Miguel de Allende,</li>
+                        <li>donde encontrarás ejemplares y muestrarios de toda la variedad que ofrecemos</li>
+                        <li>en cancelería de PVC, aluminio, cristales templados, herrajes.</li>
+                    {{--    
                     </ul>
                 </div>
             </div>
@@ -75,6 +78,7 @@
                         <li>Vergel de la Sierra, Guanajuato</li>
                         <li>Residencial, Privado</li>
                         <li>2022</li>
+                        --}}
                     </ul>
                 </div>
             </div>
@@ -93,7 +97,7 @@
             </div>
 
             <div class="col-md-3">
-                <p>Nuestros diseñadores tienen una amplia experiencia en la creación de interiores de diferentes estilos y niveles de complejidad.</p>
+                <p>Nuestro equipo integral de arquitectos, ingenieros y expertos en cancelería trabajan en estrecha colaboración para diseñar y desarrollar soluciones personalizadas que combinen funcionalidad, comodidad y estética.</p>
             </div>
         </div>
     </div>
@@ -113,7 +117,7 @@
 
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
-                    <p>El primer contacto es que conozcas nuestro Showroom dedicado totalmente a ti.</p>
+                    <p>Juntos, nos esforzamos por crear soluciones para tu proyecto que no solo satisfagan tus necesidades, sino que también superemos tus expectativas en términos de diseño y calidad.</p>
                     <img src="{{ asset('img/process-1.png') }}" alt="">
                 </div>
             </div>
@@ -123,7 +127,7 @@
             <div class="col-md-5">
                 <div class="process-title">
                     <span>02</span> 
-                    <h4 class="h4 mb-0">Desarrollamos tu concepto <span class="dot"></span></h4>
+                    <h4 class="h4 mb-0">Cotizamos y asesoramos <span class="dot"></span></h4>
                 </div>
             </div>
 
@@ -131,7 +135,7 @@
 
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
-                    <p>Crearemos una propuesta alineada a tus necesidades a partir de la primera reunión.</p>
+                    <p>Con nuestra pasión por la innovación y nuestro compromiso con la excelencia, trabajamos en las soluciones que transformen y eleven el valor de tus espacios. Escuchando siempre tus necesidades, adaptándonos a tu presupuesto y asesorando para que tengas la mejor inversión.</p>
                     <img src="{{ asset('img/process-2.png') }}" alt="">
                 </div>
             </div>
@@ -141,7 +145,7 @@
             <div class="col-md-5">
                 <div class="process-title">
                     <span>03</span>
-                    <h4 class="h4 mb-0">Producimos con alta calidad <span class="dot"></span></h4>
+                    <h4 class="h4 mb-0">Ejecución <span class="dot"></span></h4>
                 </div>
             </div>
 
@@ -149,7 +153,7 @@
 
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
-                    <p>Después de que apruebes la propuesta mandamos a producir tus piezas con  la más alta calidad y compromiso con el detalle.</p>
+                    <p>Una vez aprobada la propuesta económica y de diseño... ¡manos a la obra! Nuestro equipo se encargará de fabricar cada pieza de tu pedido con la más alta calidad y posteriormente pasaremos a la instalación de las mismas con el compromiso de cuidar cada detalle.</p>
                     <img src="{{ asset('img/process-3.png') }}" alt="">
                 </div>
             </div>
