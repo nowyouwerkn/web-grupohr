@@ -31,7 +31,7 @@
             <div class="sidebar-element">
                 <a href="{{ route('about.us') }}">
                     <div class="hover-block"></div>
-                    <h4 class="h3"><span class="body-large bold">03</span> Acerca de</h4>
+                    <h4 class="h3"><span class="body-large bold">03</span> Nosotros</h4>
                 </a>
             </div>
             @endif
@@ -65,9 +65,9 @@
             </ul>
 
             <div class="mt-auto mb-auto">
-                <p>Granjas Ceres 109, 37289 <br>León de los Aldama, Gto.</p>
-                <p><a href="">(477) 555 55 55</a></p>
-                <p><a href="">proyectos@grupohr.com</a></p>
+                <p>Calle La Zorra 109 Col. Granja Ceres. CP 37289. <br>León de los Aldama, Gto.</p>
+                <p><a href="">(477) 390 83 82</a></p>
+                <p><a href="">contacto@grupohr.com</a></p>
                 
                 <a href="" class="btn btn-primary">Encuéntranos en el mapa</a>
             </div>
