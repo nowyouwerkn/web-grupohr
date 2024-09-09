@@ -25,14 +25,15 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <h6 class="body-large bold text-uppercase">Showroom León</h6>
-                        <p>Granjas Ceres 109, 37289 León de los Aldama, Gto.</p>
-                        <p><a href="">477 555 55 55</a></p>
+                        <h6 class="body-large bold text-uppercase">LEÓN, GTO.</h6>
+                        <p>Calle La Zorra 109 Col. Granja Ceres. CP 37289. León, Gto. México.</p>
+                        <p><a href="">477 390 83 82</a></p>
+                        <p><a href="">477 557 98 85</a></p>
                     </div>
                     <div class="col-md-6">
-                        <h6 class="body-large bold text-uppercase">Showroom San Miguel de Allende</h6>
-                        <p>Granjas Ceres 109, 37289 León de los Aldama, Gto.</p>
-                        <p><a href="">477 555 55 55</a></p>
+                        <h6 class="body-large bold text-uppercase">SAN MIGUEL DE ALLENDE</h6>
+                        <p>Showroom - Camino Alcocer s/n Jardines de Allende San Miguel de Allende, Gto. México.</p>
+                        <p><a href="">415 103 20 24</a></p>
                     </div>
                 </div>
             </div>
