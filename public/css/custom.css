@@ -317,12 +317,10 @@ a:focus-visible {
 
 .nav.scroll svg path{
     fill: var(--black);
-    stroke: var(--black) !important;
 }
 
 .nav.scroll .brand-color{
     fill: var(--main) !important;
-    stroke: var(--main) !important;
 }
 
 .nav.scroll .btn-primary{
@@ -542,7 +540,7 @@ body.toggled .right-nav{
 .owl-prev{
     background: transparent !important;
     border: 1px solid var(--white) !important;
-    color: var(--white);
+    color: var(--white) !important;
 }
 
 .owl-dots{
@@ -611,6 +609,16 @@ body.toggled .right-nav{
     opacity: .4;
 }
 
+.section-intro .banner{
+    height: 85vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-intro .banner img{
+    position: relative;
+    top: -15%;
+}
 
 .intro-carousel .owl-nav{
     position: absolute;
@@ -685,11 +693,10 @@ body.toggled .right-nav{
 .image-wrap img{
     width: auto !important;
     height: 100%;
-    object-fit: cover;
     position: absolute;
-    top: -100px;
-    left: 0;
-    transition: transform 0.3s ease;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
 }
 
 .section-about{
@@ -730,6 +737,7 @@ body.toggled .right-nav{
     position: relative;
     margin-bottom: -17px;
     padding-bottom: 25px;
+    height: 84px;
 }
 
 .section-title .body-large:before{
@@ -748,8 +756,8 @@ body.toggled .right-nav{
 .section-title .body-large:after{
     content: "";
     background-color: #fff;
-    width: 145px;
-    height: 2px;
+    width: 150px;
+    height: 4px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
@@ -826,7 +834,7 @@ body.toggled .right-nav{
     padding-right: 120px;
     border-radius: 40px 0px 0px 0px;
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     z-index: 1;
 }
 
@@ -957,11 +965,23 @@ body.toggled .right-nav{
 /* Paginas Internas */
 
 .section-image-cover{
-    background: url(../img/about-us-cover.png);
+    background: url(../img/about-us-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 45vh 0px 80px 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-image-cover .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    display: block;
 }
 
 .section-image-cover .offset-title{
@@ -1082,6 +1102,14 @@ body.toggled .right-nav{
 .dark-background{
     background-color: var(--black);
     color: var(--white) !important;
+}
+
+/* Contact */
+.section-contact{
+    background: url(../img/contact-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* Process Cards */

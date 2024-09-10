@@ -10,7 +10,7 @@
     <div class="owl-carousel intro-carousel">
         <div class="item">
             <div class="banner">
-                <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
+                <img src="{{ asset('img/banner-1.jpg') }}" alt="">
                     
                 <div class="banner-info">
                     <span class="big-num display-1 outline-text">01</span>
@@ -21,7 +21,7 @@
 
         <div class="item">
             <div class="banner">
-                <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
+                <img src="{{ asset('img/banner-2.jpg') }}" alt="">
                     
                 <div class="banner-info">
                     <span class="big-num display-1 outline-text">02</span>
@@ -32,7 +32,7 @@
 
         <div class="item">
             <div class="banner">
-                <img src="{{ asset('img/banner-placeholder.png') }}" alt="">
+                <img src="{{ asset('img/banner-3.jpg') }}" alt="">
                     
                 <div class="banner-info">
                     <span class="big-num display-1 outline-text">03</span>
@@ -99,10 +99,17 @@
                             <p class="body-regular">En Grupo HR somos más de 70 colaboradores trabajando día a día para brindarte el trato profesional, formal y puntual que tu proyecto se merece. Nuestra finalidad es proveer productos y servicios de la mejor calidad a constructoras, arquitectos y público en general.</p>
                         </div>
                         <div class="col-md-6">
+
                             <p class="body-regular mb-3">Ofrecemos fabricación e instalación de:</p>
-                            <p class="body-regular">-Cancelería de PVC y Aluminio.</p>
-                            <p class="body-regular">-Cristales templados y espejos.</p>
-                            <p class="body-regular">-Cortinas enrollables, de tela y toldos.</p>
+                            <ul>
+                                <li>Cancelería de PVC y Aluminio</li>
+                                <li>Cristales templados y espejos</li>
+                                <li>Cortinas enrollables, de tela y toldos</li>
+                            </ul>
+                            
+                        </div>
+
+                        <div class="col-md-6 mt-4">
                             <p class="body-regular">Buscamos mejorar e innovar hasta los más mínimos detalles, apoyándonos siempre de la estética y la funcionalidad, porque nuestro propósito es darle el toque final a tu espacio.</p>
                         </div>
                     </div>
@@ -112,19 +119,19 @@
             <div class="col-md-6">
                 <div class="about-image-gallery">
                     <div class="image-wrap">
-                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
+                        <img src="{{ asset('img/gallery-1.webp') }}" alt="">
                     </div>
                     <div class="image-wrap">
-                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
+                        <img src="{{ asset('img/gallery-2.webp') }}" alt="">
                     </div>
                     <div class="image-wrap">
-                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
+                        <img src="{{ asset('img/gallery-3.webp') }}" alt="">
                     </div>
                     <div class="image-wrap">
-                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
+                        <img src="{{ asset('img/gallery-4.webp') }}" alt="">
                     </div>
                     <div class="image-wrap">
-                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
+                        <img src="{{ asset('img/gallery-5.webp') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -163,16 +170,16 @@
 
     <div class="container position-relative">
         <div class="row justify-content-end">
-            <div class="col-md-3 position-relative">
+            <div class="col-md-5 position-relative">
                 <div class="showroom-list-content">
-                    <h6 class="body-large bold text-uppercase">Fábrica, Showroom y Oficinas <br><span>León</span></h6>
+                    <h6 class="body-large bold text-uppercase">Fábrica, Showroom y<br> Oficinas <span>León</span></h6>
                     <p>Calle La Zorra 109, Col. Granja Ceres, C.P. 37289 León, Gto. México.</p>
-                    <p><a href="">477 390 83 82</a></p>
-                    <br>
+                    <p><a href="tel:4773908382">(477) 390 8382</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=+524775579885">(477) 557 9885</a></p>
                     <br>
                     <h6 class="body-large bold text-uppercase">Showroom <br><span>San Miguel de Allende</span></h6>
                     <p>Camino Alcocer s/n, Jardines de Allende. San Miguel de Allende, Gto. México.</p>
-                    <p><a href="">477 555 55 55</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=+524151032024">(415) 103 2024</a></p>
                 </div>
             </div>
         </div>
@@ -292,9 +299,10 @@
                         <div class="col-md-4 offset-md-1">
                             <p>Otro plus de este producto es la variedad de colores y texturas tipo madera que harán que tu proyecto arquitectónico se eleve a su máximo potencial estético.</p>
                         </div>
+                        --}}
                     </div>
                 </div>
-                --}}
+                
                 <div class="col-md-4 text-end">
                     <a href="" class="btn btn-primary">Descubre más</a>
                 </div>

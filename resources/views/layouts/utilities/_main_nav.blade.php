@@ -58,18 +58,18 @@
             <img class="logo-nav" src="{{ asset('img/logo_white.svg') }}" alt="">
 
             <ul class="list-inline social-icons">
-                <li class="list-inline-item"><a href=""><ion-icon name="logo-tiktok"></ion-icon></a></li>
-                <li class="list-inline-item"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
-                <li class="list-inline-item"><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
-                <li class="list-inline-item"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                {{--  <li class="list-inline-item"><a target="_blank" href=""><ion-icon name="logo-tiktok"></ion-icon></a></li> --}}
+                <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/grupohr.mx"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UC77T3jFaelEPYJ2LNukcdYA"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/grupo.hr/"><ion-icon name="logo-instagram"></ion-icon></a></li>
             </ul>
 
             <div class="mt-auto mb-auto">
-                <p>Calle La Zorra 109 Col. Granja Ceres. CP 37289. <br>León de los Aldama, Gto.</p>
-                <p><a href="">(477) 390 83 82</a></p>
-                <p><a href="">contacto@grupohr.com</a></p>
+                <p>Granjas Ceres 109, 37289  <br> León de los Aldama, Gto.</p>
+                <p><a href="tel:4773908382">(477) 390 83 82</a></p>
+                <p><a href="mailto:contacto@grupohr.com">contacto@grupohr.com</a></p>
                 
-                <a href="" class="btn btn-primary">Encuéntranos en el mapa</a>
+                <a href="https://maps.app.goo.gl/6mUaBoPXc4Fnm3UZA" target="_blank" class="btn btn-primary">Encuéntranos en el mapa</a>
             </div>
             
             <p class="mt-auto">Grupo HR © {{ Carbon\Carbon::now()->format('Y') }}</p>

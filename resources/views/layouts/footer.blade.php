@@ -26,14 +26,14 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h6 class="body-large bold text-uppercase">LEÓN, GTO.</h6>
-                        <p>Calle La Zorra 109 Col. Granja Ceres. CP 37289. León, Gto. México.</p>
+                        <p class="mb-0">Calle La Zorra 109 Col. Granja Ceres. CP 37289. León, Gto. México.</p>
                         <p><a href="">477 390 83 82</a></p>
                         <p><a href="">477 557 98 85</a></p>
                     </div>
                     <div class="col-md-6">
                         <h6 class="body-large bold text-uppercase">SAN MIGUEL DE ALLENDE</h6>
-                        <p>Showroom - Camino Alcocer s/n Jardines de Allende San Miguel de Allende, Gto. México.</p>
-                        <p><a href="">415 103 20 24</a></p>
+                        <p class="mb-0">Showroom - Camino Alcocer s/n Jardines de Allende San Miguel de Allende, Gto. México.</p>
+                        <p><a href="https://api.whatsapp.com/send?phone=+5214151032024">415 103 20 24</a></p>
                     </div>
                 </div>
             </div>
@@ -48,14 +48,14 @@
                 <a href="{{ route('index') }}"><img class="footer-logo" src="{{ asset('img/logo_black.svg') }}" alt=""></a>
             </div>
             <div class="col-md-4 text-center">
-                <p class="p mb-0 copyright-text">Grupo HR© {{ Carbon\Carbon::now()->format('Y') }}. Todos los derechos reservados.</p>
+                <p class="p mb-0 copyright-text">Grupo HR © {{ Carbon\Carbon::now()->format('Y') }}. Todos los derechos reservados.</p>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-icons">
-                    <li class="list-inline-item"><a href=""><ion-icon name="logo-tiktok"></ion-icon></a></li>
-                    <li class="list-inline-item"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
-                    <li class="list-inline-item"><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
-                    <li class="list-inline-item"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    {{--  <li class="list-inline-item"><a target="_blank" href=""><ion-icon name="logo-tiktok"></ion-icon></a></li> --}}
+                    <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/grupohr.mx"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UC77T3jFaelEPYJ2LNukcdYA"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/grupo.hr/"><ion-icon name="logo-instagram"></ion-icon></a></li>
                 </ul>
             </div>
         </div>

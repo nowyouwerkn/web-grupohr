@@ -1,5 +1,6 @@
 <section class="section-clients">
     <div class="container">
+        <h2 class="body-large">Nuestros Proveedores</h2>
         <hr>
     </div>
 
@@ -39,23 +40,7 @@
                 <img src="{{ asset('img/clients/logo-placeholder.png') }}" alt="">
             </div>
         </div>
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/clients/logo-placeholder.png') }}" alt="">
-            </div>
-        </div>
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/clients/logo-placeholder.png') }}" alt="">
-            </div>
-        </div>
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/clients/logo-placeholder.png') }}" alt="">
-            </div>
-        </div>
     </div>
-
 </section>
 
 

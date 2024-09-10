@@ -6,6 +6,7 @@
 
 @section('content')
 <section class="section-image-cover section-contact">
+    <div class="overlay"></div>
     <div class="container position-relative">
         <div class="row">
             <div class="col-md-6">

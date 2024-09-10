@@ -63,16 +63,6 @@
                         </div>
                         <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
                     </div>
-                    <div class="project-card-wrap">
-                        <a href="{{ route('project.detail', 'casa-lomas') }}" class="btn btn-primary">Descubre el proyecto</a>
-                        {{--        
-                        <div class="project-info">
-                            <h4 class="h4 mb-2">Proyecto Casa Lomas</h4>
-                            <p>Un estilo atemporal y permanente que solamente puede lograrse con el ímpetu y compromiso de Grupo HR</p>
-                        </div>
-                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
-                        --}}
-                    </div>
                 </div>
             </div>
         </div>

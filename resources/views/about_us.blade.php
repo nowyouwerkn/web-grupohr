@@ -6,7 +6,7 @@
 @endpush
 
 @section('content')
-<section class="section-image-cover">
+<section class="section-image-cover section-about-us">
     <div class="container position-relative">
         <div class="row">
             <div class="col-md-6">
@@ -15,7 +15,9 @@
         </div>
 
         <div class="content-block-overlay">
+            {{--  
             <p class="top-text"><span>01</span> Casa Lomas - Restaurante Clásico Propuesta PVC</p>
+            --}}
             <p>Si tienes una visión, la construiremos. Desde proyectos modulares hasta proyectos personalizados, todos perfectamente sostenibles. Cada proyecto pensado para responder a tu visión arquitectónica.</p>
             <a href="{{ route('projects') }}" class="btn btn-primary">Descubre los proyectos</a>
         </div>
