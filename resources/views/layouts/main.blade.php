@@ -33,6 +33,18 @@
 
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DL15L39ZZS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DL15L39ZZS');
+</script>
+
+
   <body>
     <main>
         <a href="" target="_blank" id="contactBtnCode" class="floating-whatsapp">
