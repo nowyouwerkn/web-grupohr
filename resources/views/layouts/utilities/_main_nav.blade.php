@@ -67,7 +67,7 @@
             <div class="mt-auto mb-auto">
                 <p>Granjas Ceres 109, 37289  <br> León de los Aldama, Gto.</p>
                 <p><a href="tel:4773908382">(477) 390 83 82</a></p>
-                <p><a href="mailto:contacto@grupohr.com">contacto@grupohr.com</a></p>
+                <p><a href="mailto:contacto@grupohr.mx">contacto@grupohr.mx</a></p>
                 
                 <a href="https://maps.app.goo.gl/6mUaBoPXc4Fnm3UZA" target="_blank" class="btn btn-primary">Encuéntranos en el mapa</a>
             </div>

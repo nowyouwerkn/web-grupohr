@@ -45,39 +45,25 @@
         <div class="owl-carousel gallery-carousel">
             <div class="item">
                 <div class="gallery-image-wrap">
+                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/LoJYE3D3Kqo?si=hbB6iPvSSUmqZZOo" frameborder="0" allow="none" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                    {{--  
                     <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                    --}}
                 </div>
     
                 <div class="gallery-info">
-                    <p>Video promocional sobre nosotros. ¡Conócenos!</p>
+                    <p>Con 10 años de experiencia, en Grupo HR contamos con más de 50 colaboradores en nuestro equipo para brindarte el trato profesional, formal y puntual que tu empresa se merece.</p>
                 </div>
             </div>
     
             <div class="item">
                 <div class="gallery-image-wrap">
-                    <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
     
                 <div class="gallery-info">
-                    <ul class="list-unstyled">
-                        <li>Vergel de la Sierra, Guanajuato</li>
-                        <li>Residencial, Privado</li>
-                        <li>2022</li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div class="item">
-                <div class="gallery-image-wrap">
-                    <img src="{{ asset('img/product-placeholder.png') }}" alt="">
-                </div>
-    
-                <div class="gallery-info">
-                    <ul class="list-unstyled">
-                        <li>Vergel de la Sierra, Guanajuato</li>
-                        <li>Residencial, Privado</li>
-                        <li>2022</li>
-                    </ul>
+                    <p>Conoce nuestros showrooms en León, Gto y San Miguel de Allende, donde encontrarás ejemplares y muestrarios de toda la variedad que ofrecemos en cancelería de PVC, aluminio, cristales templados, herrajes, persianas enrollables, cortinas de tela y toldos.</p>
                 </div>
             </div>
         </div>
@@ -95,7 +81,7 @@
             </div>
 
             <div class="col-md-3">
-                <p>Nuestros diseñadores tienen una amplia experiencia en la creación de interiores de diferentes estilos y niveles de complejidad.</p>
+                <p>Nuestro equipo integral de arquitectos, ingenieros y expertos en cancelería trabajan en estrecha colaboración para diseñar y desarrollar soluciones personalizadas que combinen funcionalidad, comodidad y estética.</p>
             </div>
         </div>
     </div>
@@ -115,8 +101,8 @@
 
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
-                    <p>El primer contacto es que conozcas nuestro Showroom dedicado totalmente a ti.</p>
-                    <img src="{{ asset('img/process-1.png') }}" alt="">
+                    <p>Juntos, nos esforzamos por crear soluciones para tu proyecto que no solo satisfagan tus necesidades, sino que también superemos tus expectativas en términos de diseño y calidad.</p>
+                    <img src="{{ asset('img/process-1.webp') }}" alt="">
                 </div>
             </div>
         </div>
@@ -125,7 +111,7 @@
             <div class="col-md-5">
                 <div class="process-title">
                     <span>02</span> 
-                    <h4 class="h4 mb-0">Desarrollamos tu concepto <span class="dot"></span></h4>
+                    <h4 class="h4 mb-0">Cotizamos y asesoramos <span class="dot"></span></h4>
                 </div>
             </div>
 
@@ -133,8 +119,8 @@
 
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
-                    <p>Crearemos una propuesta alineada a tus necesidades a partir de la primera reunión.</p>
-                    <img src="{{ asset('img/process-2.png') }}" alt="">
+                    <p>Con nuestra pasión por la innovación y nuestro compromiso con la excelencia, trabajamos en las soluciones que transformen y eleven el valor de tus espacios. Escuchando siempre tus necesidades, adaptándonos a tu presupuesto y asesorando para que tengas la mejor inversión.</p>
+                    <img src="{{ asset('img/process-2.webp') }}" alt="">
                 </div>
             </div>
         </div>
@@ -143,7 +129,7 @@
             <div class="col-md-5">
                 <div class="process-title">
                     <span>03</span>
-                    <h4 class="h4 mb-0">Producimos con alta calidad <span class="dot"></span></h4>
+                    <h4 class="h4 mb-0">Ejecución <span class="dot"></span></h4>
                 </div>
             </div>
 
@@ -151,15 +137,17 @@
 
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
-                    <p>Después de que apruebes la propuesta mandamos a producir tus piezas con  la más alta calidad y compromiso con el detalle.</p>
-                    <img src="{{ asset('img/process-3.png') }}" alt="">
+                    <p>Una vez aprobada la propuesta económica y de diseño... ¡manos a la obra! Nuestro equipo se encargará de fabricar cada pieza de tu pedido con la más alta calidad y posteriormente pasaremos a la instalación de las mismas con el compromiso de cuidar cada detalle.</p>
+                    <img src="{{ asset('img/process-3.webp') }}" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+{{--  
 @include('layouts.includes.testimonials_v2')
+
 
 <section class="section-image-separator">
     <div class="container">
@@ -172,34 +160,35 @@
         </div>
     </div>
 </section>
+--}}
 
 <div class="no-border-marquee">
     @include('layouts.includes.clients_marquee')
 </div>
 
-<section class="section-experience">
+<section class="section-experience pt-0">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="d-flex align-items-end">
-                    <h3 class="hiper-big outline-text display-1">8</h3>
+                    <h3 class="hiper-big outline-text display-1">9</h3>
                     <h3 class="h3">años de proyectos <span class="dot"></span></h3>
                 </div>
             </div>
             <div class="col-md-6">
-                <p class="body-regular mb-4">¡Estamos orgullosos de nuestros logros y estamos listos para compartir nuestro profesionalismo contigo!</p>
+                <p class="body-regular mb-4">¡Crecemos por y para tí! Gracias por ser parte de estos 9 años!</p>
                 <div class="row">
                     <div class="col-md-4">
-                        <h5 class="h5 mb-0">200+</h5>
-                        <p>Proyecto completados</p>
+                        <h5 class="h5 mb-0">50+</h5>
+                        <p>colaboradores</p>
                     </div>
                     <div class="col-md-4">
-                        <h5 class="h5 mb-0">30+</h5>
-                        <p>Proveedores exclusivos</p>
+                        <h5 class="h5 mb-0">200</h5>
+                        <p>proyectos entregados</p>
                     </div>
                     <div class="col-md-4">
-                        <h5 class="h5 mb-0">15+</h5>
-                        <p>Premios de arquitectura</p>
+                        <h5 class="h5 mb-0">6+</h5>
+                        <p>ciudades abarcadas</p>
                     </div>
                 </div>
             </div>

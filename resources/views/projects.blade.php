@@ -28,41 +28,46 @@
             <div class="col-md-8">
                 <div class="projects-cards-gallery">
                     <div class="project-card-wrap">
-                        <a href="{{ route('project.detail', 'casa-lomas') }}" class="btn btn-primary">Descubre el proyecto</a>
+                        <a href="{{ route('project.detail', 'casa-herpon') }}" class="btn btn-primary">Descubre el proyecto</a>
                                 
                         <div class="project-info">
-                            <h4 class="h4 mb-2">CASA HERPON</h4>
-                            <p>Proyecto de cancelería integral de Aluminio para Grupo HERPON</p>
+                            <h4 class="h4 mb-2">Casa HERPON</h4>
+                            <p>Proyecto de cancelería integral de Aluminio <br> para Grupo HERPON</p>
                         </div>
-                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
+                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/projects/casa-herpon-cover.jpg') }}" alt="">
                     </div>
+
                     <div class="project-card-wrap">
-                        <a href="{{ route('project.detail', 'casa-lomas') }}" class="btn btn-primary">Descubre el proyecto</a>
+                        <a href="{{ route('project.detail', 'casa-jobreka') }}" class="btn btn-primary">Descubre el proyecto</a>
                                 
                         <div class="project-info">
-                            <h4 class="h4 mb-2">CASA BLANCA JOBREKA</h4>
-                            <p>Proyecto de cancelería integral de Aluminio Blanco para JOBREKA</p>
+                            <h4 class="h4 mb-2">Casa Blanca JOBREKA</h4>
+                            <p>Proyecto de cancelería integral de <br> Aluminio Blanco para JOBREKA</p>
                         </div>
-                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
+                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/projects/casa-jobreka-cover.jpg') }}" alt="">
                     </div>
+
                     <div class="project-card-wrap">
-                        <a href="{{ route('project.detail', 'casa-lomas') }}" class="btn btn-primary">Descubre el proyecto</a>
+                        <a href="{{ route('project.detail', 'casa-rayas') }}" class="btn btn-primary">Descubre el proyecto</a>
                                 
                         <div class="project-info">
-                            <h4 class="h4 mb-2">CASA JG RAYAS</h4>
-                            <p>Proyecto de cancelería integral de PVC Nogal para RAYAS Arquitectos.</p>
+                            <h4 class="h4 mb-2">Casa JG RAYAS</h4>
+                            <p>Proyecto de cancelería integral de <br> PVC Nogal para RAYAS Arquitectos.</p>
                         </div>
-                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
+                        <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/projects/casa-rayas-cover.png') }}" alt="">
                     </div>
+
+                    {{--  
                     <div class="project-card-wrap">
-                        <a href="{{ route('project.detail', 'casa-lomas') }}" class="btn btn-primary">Descubre el proyecto</a>
+                        <a href="{{ route('project.detail', 'casa-sorrento') }}" class="btn btn-primary">Descubre el proyecto</a>
                                 
                         <div class="project-info">
-                            <h4 class="h4 mb-2">CASA SORRENTO MENA</h4>
-                            <p>Proyecto de cancelería integral de PVC Nogal para Arq. Juan José Mena.</p>
+                            <h4 class="h4 mb-2">Casa SORRENTO MENA</h4>
+                            <p>Proyecto de cancelería integral de PVC Nogal <br> para Arq. Juan José Mena.</p>
                         </div>
                         <img class="parallax" data-rellax-scroll="2" src="{{ asset('img/about-us-1.png') }}" alt="">
                     </div>
+                    --}}
                 </div>
             </div>
         </div>

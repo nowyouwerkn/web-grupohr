@@ -172,6 +172,11 @@ a:focus-visible {
     padding-bottom: 30px;
 }
 
+/* BRAND WHATSAPP */
+.whatsapp-green{
+    color: #25D366;
+}
+
 /* Offset title */
 .offset-title w{
     display: block;
@@ -771,6 +776,12 @@ body.toggled .right-nav{
     margin-bottom: 50px !important;
 }
 
+.logo-wrap{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
 /* Showroom CTA */
 .section-showroom-cta{
     margin-top: 90px;
@@ -1084,7 +1095,15 @@ body.toggled .right-nav{
 
 .gallery-carousel .gallery-info{
     padding-top: 40px;
+    padding-left: 20px;
+    width: 40%;
     font-size: 18px;
+}
+
+.gallery-image-wrap{
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
 }
 
 .gallery-info p{
@@ -1126,6 +1145,11 @@ body.toggled .right-nav{
 .process-row{
     margin-bottom: 100px; 
     position: relative;
+}
+
+.process-info img{
+    padding-right: 15%;
+    width: 100%;
 }
 
 .timeline{
@@ -1257,15 +1281,22 @@ body.toggled .right-nav{
 }
 
 .project-card-wrap{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     position: relative;
     overflow: hidden;
-    min-height: 90vh;
+    min-height: 85vh;
+    width: 100%;
+    border-radius: 30px 0px 0px 30px;
+    background-color: var(--black);
 }
 
 .project-card-wrap img{
     position: absolute;
     height: 110%;
+    top: -10px;
+    left: -10px;
+    width: auto;
+    opacity: .9;
 }
 
 .project-card-wrap .project-info{

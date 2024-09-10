@@ -206,7 +206,7 @@
                     <div class="owl-carousel product-carousel">
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/pvc/pvc-1.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -220,12 +220,12 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/pvc/pvc-2.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
                                 <ul class="list-unstyled">
-                                    <<li>Cancel Corredizo</li>
+                                    <li>Cancel Corredizo</li>
                                     <li>PVC Nogal</li>
                                     <li>León, Gto.</li>
                                 </ul>
@@ -234,7 +234,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/pvc/pvc-3.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -248,7 +248,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/pvc/pvc-4.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -262,7 +262,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/pvc/pvc-5.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -293,7 +293,7 @@
                     
                     <div class="row">
                         <div class="col-md-4">
-                            <p>Nuestro producto TOP, si lo que quieres es un espacio acústico, térmico y estético... escoge entre nuestras múltiples aperturas que se adaptan a todos lo espacios. Podrás elegir entre varios colores y texturas imitación madera.</p>
+                            <p>Nuestro producto top, si lo que quieres es un espacio acústico, térmico y estético... escoge entre nuestras múltiples aperturas que se adaptan a todos lo espacios. Podrás elegir entre varios colores y texturas imitación madera.</p>
                         </div>
                         {{--
                         <div class="col-md-4 offset-md-1">
@@ -304,7 +304,7 @@
                 </div>
                 
                 <div class="col-md-4 text-end">
-                    <a href="" class="btn btn-primary">Descubre más</a>
+                    <a href="{{ route('projects') }}" class="btn btn-primary">Descubre más</a>
                 </div>
             </div>
         </div>
@@ -318,7 +318,7 @@
                     <div class="owl-carousel product-carousel">
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/aluminio/alum-1.webp') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -332,13 +332,13 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/aluminio/alum-2.webp') }}" alt="">
                             </div>
             
                             <div class="product-info">
                                 <ul class="list-unstyled">
                                     <li>Aluminio Eurovent.</li>
-                                    <li>RColor Blanco.</li>
+                                    <li>Color Blanco.</li>
                                     <li>León, Gto.</li>
                                 </ul>
                             </div>
@@ -346,21 +346,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
-                            </div>
-            
-                            <div class="product-info">
-                                <ul class="list-unstyled">
-                                    <li>Aluminio Eurovent.</li>
-                                    <li>Color Chocolate.</li>
-                                    <li>León, Gto.</li>
-                                </ul>
-                            </div>
-                        </div>
-                
-                        <div class="item">
-                            <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/aluminio/alum-3.webp') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -374,7 +360,21 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/aluminio/alum-4.webp') }}" alt="">
+                            </div>
+            
+                            <div class="product-info">
+                                <ul class="list-unstyled">
+                                    <li>Aluminio Eurovent.</li>
+                                    <li>Color Chocolate.</li>
+                                    <li>León, Gto.</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div class="item">
+                            <div class="image-wrap">
+                                <img src="{{ asset('img/aluminio/alum-5.webp') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -410,13 +410,13 @@
                     </div>
                 </div>
                 <div class="col-md-4 text-end">
-                    <a href="" class="btn btn-primary">Descubre más</a>
+                    <a href="{{ route('projects') }}" class="btn btn-primary">Descubre más</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- PERSIANAS ENROLLABLES -->
+    <!-- CRISTALES TEMPLADOS -->
     <div class="product-card">
         <div class="container">
             <div class="row">
@@ -424,7 +424,7 @@
                     <div class="owl-carousel product-carousel">
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cristales/temp-1.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -438,7 +438,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cristales/temp-2.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -452,7 +452,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cristales/temp-3.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -466,7 +466,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cristales/temp-4.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -480,7 +480,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cristales/temp-5.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -516,13 +516,13 @@
                     </div>
                 </div>
                 <div class="col-md-4 text-end">
-                    <a href="" class="btn btn-primary">Descubre más</a>
+                    <a href="{{ route('projects') }}" class="btn btn-primary">Descubre más</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- CORTINAS DE TELA -->
+    <!-- PERSIANAS ENROLLABLES Y DE TELA -->
     <div class="product-card">
         <div class="container">
             <div class="row">
@@ -530,7 +530,7 @@
                     <div class="owl-carousel product-carousel">
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cortinas/corti-1.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -544,7 +544,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cortinas/corti-2.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -558,7 +558,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cortinas/corti-3.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -572,7 +572,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cortinas/corti-4.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -586,7 +586,7 @@
                 
                         <div class="item">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/product-placeholder.png') }}" alt="">
+                                <img src="{{ asset('img/cortinas/corti-5.png') }}" alt="">
                             </div>
             
                             <div class="product-info">
@@ -617,19 +617,21 @@
     
                     <div class="row">
                         <div class="col-md-5">
-                            <p> Para el bloqueo solar en un espacio limpio, minimalista y práctico... escoge entre cientos de opciones para blackout, filtro solar, duo line, abatibles, manual o motorizados.</p>
+                            <p>Para el bloqueo solar en un espacio limpio, minimalista y práctico... escoge entre cientos de opciones para blackout, filtro solar, duo line, abatibles, manual o motorizados.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 text-end">
-                    <a href="" class="btn btn-primary">Descubre más</a>
+                    <a href="{{ route('projects') }}" class="btn btn-primary">Descubre más</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+{{--  
 @include('layouts.includes.testimonials')
+--}}
 
 @endsection
 
