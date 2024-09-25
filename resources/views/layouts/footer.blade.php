@@ -28,12 +28,12 @@
                         <h6 class="body-large bold text-uppercase">LEÓN, GTO.</h6>
                         <p>Granjas ceres 109, 37289 León de los Aldama, Gto.</p>
                         <p class="mb-0"><a href="tel:4773908382"><ion-icon name="phone-portrait-outline"></ion-icon> (477) 390 83 82</a></p>
-                        <p><a href="https://api.whatsapp.com/send?phone=+5214775579885"><ion-icon name="logo-whatsapp" class="whatsapp-green"></ion-icon> (477) 557 98 85</a></p>
+                        <p><a href="https://api.whatsapp.com/send?phone=+524775579885&text=¡Buen día, tengo preguntas de su servicio!" target="_blank"><ion-icon name="logo-whatsapp" class="whatsapp-green"></ion-icon> (477) 557 98 85</a></p>
                     </div>
                     <div class="col-md-6">
                         <h6 class="body-large bold text-uppercase">SAN MIGUEL DE ALLENDE</h6>
                         <p>Showroom - Camino Alcocer s/n Jardines de Allende San Miguel de Allende, Gto. México.</p>
-                        <p><a href="https://api.whatsapp.com/send?phone=+5214151032024"><ion-icon name="logo-whatsapp" class="whatsapp-green"></ion-icon> (415) 103 20 24</a></p>
+                        <p><a href="https://api.whatsapp.com/send?phone=+524151032024&text=¡Buen día, tengo preguntas de su servicio!" target="_blank"><ion-icon name="logo-whatsapp" class="whatsapp-green"></ion-icon> (415) 103 20 24</a></p>
                     </div>
                 </div>
             </div>
@@ -47,10 +47,12 @@
             <div class="col-md-4">
                 <a href="{{ route('index') }}"><img class="footer-logo" src="{{ asset('img/logo_black.svg') }}" alt=""></a>
             </div>
+            
             <div class="col-md-4 text-center">
                 <p class="p mb-3 copyright-text">Grupo HR © {{ Carbon\Carbon::now()->format('Y') }}. Todos los derechos reservados.</p>
                 <p class="mb-0 d-flex justify-content-center align-items-center gap-2"><a href="{{ asset('aviso-de-privacidad.pdf') }}" target="_blank"><ion-icon name="document-outline"> </ion-icon> <span>Aviso de Privacidad</span></a></p>
             </div>
+
             <div class="col-md-4">
                 <ul class="list-inline social-icons">
                     {{--  <li class="list-inline-item"><a target="_blank" href=""><ion-icon name="logo-tiktok"></ion-icon></a></li> --}}

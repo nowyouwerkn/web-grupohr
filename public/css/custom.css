@@ -20,6 +20,10 @@ body {
 	overflow-x: hidden !important;
 }
 
+main{
+    overflow-x: hidden !important;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: "Satoshi-Variable", sans-serif;
 }
@@ -726,6 +730,8 @@ body.toggled .right-nav{
     margin-top: 100px;
     margin-bottom: 40px;
     z-index: -1;
+    overflow: hidden !important;
+    width: 100%;
     position: relative;
 }
 
@@ -1452,8 +1458,8 @@ footer .social-icons{
 	}
 
     .h3 {
-        font-size: 15vw;
-        letter-spacing: -3px;
+        font-size: 14vw;
+        letter-spacing: -4px;
         line-height: 115%;
     }
 
@@ -1698,6 +1704,10 @@ footer .social-icons{
     .section-image-cover .content-block-overlay{
         width: 100%;
         bottom: -70vh;
+    }
+
+    .gallery-carousel .owl-stage-outer{
+        overflow: hidden;
     }
 
     .gallery-carousel .owl-nav{

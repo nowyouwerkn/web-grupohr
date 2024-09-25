@@ -34,20 +34,19 @@
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DL15L39ZZS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL15L39ZZS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-DL15L39ZZS');
-</script>
-
+    gtag('config', 'G-DL15L39ZZS');
+  </script>
 
   <body>
     <main>
-        <a href="" target="_blank" id="contactBtnCode" class="floating-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=+524775579885&text=¡Buen día, tengo preguntas de su servicio!" target="_blank" id="contactBtnCode" class="floating-whatsapp">
           <ion-icon name="logo-whatsapp" style="color: #ffffff;"></ion-icon>
         </a>
         
