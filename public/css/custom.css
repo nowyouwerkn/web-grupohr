@@ -1566,9 +1566,21 @@ footer .social-icons{
         margin-bottom: 120px;
     }
 
+    .product-carousel .owl-stage-outer{
+        overflow: hidden;
+    }
+
+    .product-carousel .image-wrap{
+        margin-bottom: 120px;
+    }
+
+    .product-carousel .owl-nav{
+        bottom: 160px;
+    }
+    
     .product-carousel .product-info {
         position: absolute;
-        bottom: -130px;
+        bottom: -10px;
         right: initial;
         text-align: center;
         left: 50%;
