@@ -50,13 +50,26 @@
 <script>
   $('.client-carousel').owlCarousel({
     loop:true,
-    margin:120,
+    
     nav:false,
     dots:false,
-    items:7,
     autoplay:true,
     autoplayTimeout:1000,
-    autoplayHoverPause:true
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:3,
+            margin:60,
+        },
+        600:{
+            items:5,
+            margin:120,
+        },
+        1000:{
+            items:7,
+            margin:120,
+        }
+    }
   });
 </script>
 @endpush
