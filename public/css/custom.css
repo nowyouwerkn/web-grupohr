@@ -1,6 +1,5 @@
 @import url('../fonts/satoshi/css/satoshi.css');
 
-
 *,
 *::after,
 *::before {
@@ -53,30 +52,7 @@ a:hover {
 	outline: none;
 }
 
-/* Better focus styles from https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible */
-a:focus {
-	/* Provide a fallback style for browsers
-	 that don't support :focus-visible */
-	outline: none;
-	background: lightgrey;
-}
-
-a:focus:not(:focus-visible) {
-	/* Remove the focus indicator on mouse-focus for browsers
-	 that do support :focus-visible */
-	background: transparent;
-}
-
-a:focus-visible {
-	/* Draw a very noticeable focus style for
-	 keyboard-focus on browsers that do support
-	 :focus-visible */
-	outline: 2px solid red;
-	background: transparent;
-}
-
 /* Text Styles */
-
 .display-1{
 	font-size: 336px;
     line-height: 100%;
@@ -982,7 +958,6 @@ body.toggled .right-nav{
 }
 
 /* Paginas Internas */
-
 .section-image-cover{
     background: url(../img/about-us-cover.jpg);
     background-repeat: no-repeat;
@@ -1421,7 +1396,6 @@ footer .social-icons{
     text-align: right;
 }
 
-
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1600px) {
 
@@ -1438,7 +1412,10 @@ footer .social-icons{
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .circle-cursor{
+        display: none;
+    }
+    
     .container{
         padding: 0px 20px;
     }
@@ -1496,6 +1473,10 @@ footer .social-icons{
     .owl-dots {
         left: 80px;
         bottom: 120px;
+    }
+
+    .intro-carousel .owl-nav{
+        right: 20px;
     }
 
     .banner-info{
@@ -1657,11 +1638,14 @@ footer .social-icons{
 
     .project-card-wrap{
         height: 70vh;
+        border-radius: 30px;
     }
 
     .project-card-wrap .project-info{
         right: 0px;
         width: 100%;
+        text-align: center;
+        padding: 30px;
     }
 
     .project-card-wrap .project-info .h4{
@@ -1671,6 +1655,7 @@ footer .social-icons{
 
     .project-card-wrap .btn-primary{
         right: 30px;
+        width: 85%;
         left: initial;
     }
 
@@ -1684,6 +1669,11 @@ footer .social-icons{
 
     .section-image-cover{
         padding: 30vh 0px 70vh 0px;
+        background-attachment: initial !important;
+    }
+
+    .section-products .ps-4{
+        padding-left: 0px !important;
     }
 
     .content-block-overlay .top-text{
