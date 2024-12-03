@@ -3,6 +3,19 @@
 @push('styles')
 <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/dist/assets/owl.carousel.min.css') }}">
 <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/dist/assets/owl.theme.default.min.css') }}">
+
+<style>
+    .gallery-carousel .owl-prev{
+        background: transparent !important;
+        border: 1px solid var(--black) !important;
+        color: var(--black) !important;
+    }
+
+    .gallery-carousel .owl-nav {
+        bottom: 135px !important;
+    }
+
+</style>
 @endpush
 
 @section('content')
@@ -18,7 +31,7 @@
             {{--  
             <p class="top-text"><span>01</span> Casa Lomas - Restaurante Clásico Propuesta PVC</p>
             --}}
-            <p>Si tienes una visión, la construiremos. Desde proyectos modulares hasta proyectos personalizados, todos perfectamente sostenibles. Cada proyecto pensado para responder a tu visión arquitectónica.</p>
+            <p>Con impacto geográfico en el centro del país, ubicamos nuestras oficinas centrales en León, Gto y extendemos nuestras obras y proyectos en ciudades como Guadalajara, Irapuato, Salamanca, Querétaro, CDMX y San Miguel de Allende.</p>
             <a href="{{ route('projects') }}" class="btn btn-primary">Descubre los proyectos</a>
         </div>
     </div>
@@ -35,10 +48,10 @@
             </div>
         </div>
     
-        <div class="row justify-content-end">
-            <div class="col-md-5 text-end pe-5">
-                <h3 class="h4 mb-4">Le damos el toque final a tu espacio</h3>
-                <p class="ps-4">Somos solucionadores integrales, creemos en tu proyecto y que los logros en equipo son los que verdaderamente importan.</p>
+        <div class="row justify-content-start">
+            <div class="col-md-5 pe-5">
+                <h3 class="h4 mb-4">Le damos el toque final a tu espacio <span class="dot"></span></h3>
+                <p>Somos solucionadores integrales, creemos en tu proyecto y que los logros en equipo son los que verdaderamente importan.</p>
             </div>
         </div>
     
@@ -53,7 +66,7 @@
                 </div>
     
                 <div class="gallery-info">
-                    <p>Con 10 años de experiencia, en Grupo HR contamos con más de 50 colaboradores en nuestro equipo para brindarte el trato profesional, formal y puntual que tu empresa se merece.</p>
+                    <p>Con 10 años de experiencia, en Grupo HR contamos con más de 60 colaboradores en nuestro equipo para brindarte el trato profesional, formal y puntual que tu empresa se merece.</p>
                 </div>
             </div>
     
@@ -93,7 +106,7 @@
             <div class="col-md-5">
                 <div class="process-title">
                     <span>01</span>
-                    <h4 class="h4 mb-0"> Identificamos tus necesidades <span class="dot"></span></h4>
+                    <h4 class="h4 mb-0"> Identificamos tus necesidades <span class="dot ms-0"></span></h4>
                 </div>
             </div>
 
@@ -111,7 +124,7 @@
             <div class="col-md-5">
                 <div class="process-title">
                     <span>02</span> 
-                    <h4 class="h4 mb-0">Cotizamos y asesoramos <span class="dot"></span></h4>
+                    <h4 class="h4 mb-0">Cotizamos y asesoramos <span class="dot ms-0"></span></h4>
                 </div>
             </div>
 
@@ -129,7 +142,25 @@
             <div class="col-md-5">
                 <div class="process-title">
                     <span>03</span>
-                    <h4 class="h4 mb-0">Ejecución <span class="dot"></span></h4>
+                    <h4 class="h4 mb-0">Ejecución <span class="dot ms-0"></span></h4>
+                </div>
+            </div>
+
+            <div class="timeline-dot"></div>
+
+            <div class="col-md-5 offset-md-2">
+                <div class="process-info">
+                    <p>Una vez aprobada la propuesta económica y de diseño... ¡manos a la obra! Nuestro equipo se encargará de fabricar cada pieza de tu pedido con la más alta calidad y posteriormente pasaremos a la instalación de las mismas con el compromiso de cuidar cada detalle.</p>
+                    <img src="{{ asset('img/process-3.webp') }}" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row process-row">
+            <div class="col-md-5">
+                <div class="process-title">
+                    <span>04</span>
+                    <h4 class="h4 mb-0">Post-venta <span class="dot ms-0"></span></h4>
                 </div>
             </div>
 
@@ -179,21 +210,71 @@
                 <p class="body-regular mb-4">¡Crecemos por y para tí! Gracias por ser parte de estos 9 años!</p>
                 <div class="row">
                     <div class="col-md-4">
-                        <h5 class="h5 mb-0">50+</h5>
+                        <h5 class="h5 mb-0">60+</h5>
                         <p>colaboradores</p>
                     </div>
+
+                    {{-- 
                     <div class="col-md-4">
                         <h5 class="h5 mb-0">200</h5>
                         <p>proyectos entregados</p>
                     </div>
+                    --}}
                     <div class="col-md-4">
-                        <h5 class="h5 mb-0">6+</h5>
+                        <h5 class="h5 mb-0">11+</h5>
                         <p>ciudades abarcadas</p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="mt-5 pt-5">
+            <div class="owl-carousel reels-carousel">
+                <div class="item">
+                    <div class="gallery-image-wrap">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/LoJYE3D3Kqo?si=hbB6iPvSSUmqZZOo" frameborder="0" allow="none" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+        
+                <div class="item">
+                    <div class="gallery-image-wrap">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="gallery-image-wrap">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="gallery-image-wrap">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="gallery-image-wrap">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="gallery-image-wrap">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="gallery-image-wrap">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    
 </section>
 
 @endsection
@@ -210,4 +291,14 @@
     items:1,
   });
 </script>
+
+<script>
+    $('.reels-carousel').owlCarousel({
+      loop:true,
+      margin:30,
+      nav:true,
+      dots:false,
+      items:4,
+    });
+  </script>
 @endpush

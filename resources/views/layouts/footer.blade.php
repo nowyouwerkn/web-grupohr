@@ -1,4 +1,4 @@
-<div class="pre-footer">
+<div id="contact" class="pre-footer">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-12">
@@ -26,13 +26,13 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h6 class="body-large bold text-uppercase">LEÓN, GTO.</h6>
-                        <p>Granjas ceres 109, 37289 León de los Aldama, Gto.</p>
+                        <p>Granjas Ceres 109, 37289 <br> León, Gto. México.</p>
                         <p class="mb-0"><a href="tel:4773908382"><ion-icon name="phone-portrait-outline"></ion-icon> (477) 390 83 82</a></p>
                         <p><a href="https://api.whatsapp.com/send?phone=+524775579885&text=¡Buen día, tengo preguntas de su servicio!" target="_blank"><ion-icon name="logo-whatsapp" class="whatsapp-green"></ion-icon> (477) 557 98 85</a></p>
                     </div>
                     <div class="col-md-6">
                         <h6 class="body-large bold text-uppercase">SAN MIGUEL DE ALLENDE</h6>
-                        <p>Showroom - Camino Alcocer s/n Jardines de Allende San Miguel de Allende, Gto. México.</p>
+                        <p>Showroom - Camino Alcocer s/n Fracc. Jardines de Allende <br> SMA, Gto. México.</p>
                         <p><a href="https://api.whatsapp.com/send?phone=+524151032024&text=¡Buen día, tengo preguntas de su servicio!" target="_blank"><ion-icon name="logo-whatsapp" class="whatsapp-green"></ion-icon> (415) 103 20 24</a></p>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
 
             <div class="col-md-4">
                 <ul class="list-inline social-icons">
-                    {{--  <li class="list-inline-item"><a target="_blank" href=""><ion-icon name="logo-tiktok"></ion-icon></a></li> --}}
+                    <li class="list-inline-item"><a target="_blank" href="https://www.tiktok.com/@grupo.hrleon"><ion-icon name="logo-tiktok"></ion-icon></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/grupohr.mx"><ion-icon name="logo-facebook"></ion-icon></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UC77T3jFaelEPYJ2LNukcdYA"><ion-icon name="logo-youtube"></ion-icon></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/grupo.hr/"><ion-icon name="logo-instagram"></ion-icon></a></li>

@@ -3,6 +3,21 @@
 @push('styles')
 <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/dist/assets/owl.carousel.min.css') }}">
 <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/dist/assets/owl.theme.default.min.css') }}">
+
+<style>
+    .gallery-carousel .owl-nav {
+        left: 50% !important;
+        right: initial !important;
+        bottom: -30px !important;
+        transform: translateX(-50%) !important;
+    }
+
+    .gallery-carousel .owl-prev{
+        background: transparent !important;
+        border: 1px solid var(--black) !important;
+        color: var(--black) !important;
+    }
+</style>
 @endpush
 
 @section('content')
@@ -36,7 +51,7 @@
                     
                 <div class="banner-info">
                     <span class="big-num display-1 outline-text">03</span>
-                    <p><span>03</span> Cortinas enrrollables, de tela y toldos</p>
+                    <p><span>03</span> Cortinas enrollables, de tela y toldos</p>
                 </div>
             </div>
         </div>
@@ -56,7 +71,7 @@
                 <ul class="list-unstyled intro-menu">
                     <li><a href="{{ route('projects') }}">Proyectos Integrales</a></li>
                     <li><a href="{{ route('about.us') }}">Nosotros</a></li>
-                    <li><a href="{{ route('contact') }}">Contacto</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -64,12 +79,12 @@
         <div class="row align-items-end mt-5">
             <div class="col-md-3 offset-md-2">
                 <div class="d-flex justify-content-end">
-                    <p class="pe-3">¡Hola! Somos Grupo HR, si estás buscando servicio profesional para la cancelería de tu proyecto, permítenos asesorarte y acompañarte en este proceso.</p>
+                    <p class="pe-3">¡Hola! Somos Grupo HR, si estás buscando servicio profesional para tu proyecto, permítenos asesorarte y acompañarte en este proceso.</p>
                 </div>
             </div>
 
             <div class="col-md-3 offset-md-2">
-                <p class="opacity-text">Grupo HR © 2024</p>
+                <p class="opacity-text">Grupo HR © {{ Carbon\Carbon::now()->format('Y') }}</p>
             </div>
         </div>
     </div>
@@ -93,10 +108,10 @@
                         <h1 class="display-1 outline-text">Grupo HR</h1>
                     </div>
 
-                    <h2 class="h3 std-mb std-hug">Buscamos siempre lo estético y funcional.</h2>
+                    <h2 class="h3 std-mb std-hug">Buscamos siempre lo estético y funcional <span class="dot"></span></h2>
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="body-regular">En Grupo HR somos más de 70 colaboradores trabajando día a día para brindarte el trato profesional, formal y puntual que tu proyecto se merece. Nuestra finalidad es proveer productos y servicios de la mejor calidad a constructoras, arquitectos y público en general.</p>
+                            <p class="body-regular">En Grupo HR somos más de 60 colaboradores trabajando día a día para brindarte el trato profesional, formal y puntual que tu proyecto se merece. Nuestra finalidad es proveer productos y servicios de la mejor calidad a constructoras, arquitectos y público en general.</p>
                         </div>
                         <div class="col-md-6">
 
@@ -158,14 +173,6 @@
         <div class="item">
             <img src="{{ asset('img/showroom-placeholder.png') }}" alt="">
         </div>
-
-        <div class="item">
-            <img src="{{ asset('img/showroom-placeholder.png') }}" alt="">
-        </div>
-
-        <div class="item">
-            <img src="{{ asset('img/showroom-placeholder.png') }}" alt="">
-        </div>
     </div>
 
     <div class="container position-relative">
@@ -173,13 +180,31 @@
             <div class="col-md-5 position-relative">
                 <div class="showroom-list-content">
                     <h6 class="body-large bold text-uppercase">Fábrica, Showroom y<br> Oficinas <span>León</span></h6>
-                    <p>Calle La Zorra 109, Col. Granja Ceres, C.P. 37289 León, Gto. México.</p>
+                    <p><a href="https://maps.app.goo.gl/CHfyRXSvP3BGS3zM8" target="_blank">Calle La Zorra 109, Col. Granja Ceres, C.P. 37289 León, Gto. México. <ion-icon name="arrow-forward-outline"></ion-icon></a></p>
                     <p><a href="tel:4773908382">(477) 390 8382</a></p>
                     <p><a href="https://api.whatsapp.com/send?phone=+524775579885">(477) 557 9885</a></p>
                     <br>
                     <h6 class="body-large bold text-uppercase">Showroom <br><span>San Miguel de Allende</span></h6>
-                    <p>Camino Alcocer s/n, Jardines de Allende. San Miguel de Allende, Gto. México.</p>
+                    <p><a href="https://maps.app.goo.gl/xQsE9VRrxAjzZvXP9" target="_blank">Camino Alcocer s/n, Jardines de Allende. San Miguel de Allende, Gto. México. <ion-icon name="arrow-forward-outline"></ion-icon></a></p>
                     <p><a href="https://api.whatsapp.com/send?phone=+524151032024">(415) 103 2024</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="owl-carousel gallery-carousel">
+                <div class="item">
+                    <div class="gallery-image-wrap">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/LoJYE3D3Kqo?si=hbB6iPvSSUmqZZOo" frameborder="0" allow="none" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="gallery-image-wrap">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -254,7 +279,7 @@
                             <div class="product-info">
                                 <ul class="list-unstyled">
                                     <li>Cancelería Residencial</li>
-                                    <li>PVC PVC Chocolate</li>
+                                    <li>PVC Chocolate</li>
                                     <li>León, Gto.</li>
                                 </ul>
                             </div>
@@ -611,7 +636,7 @@
                 <div class="col-md-8">
                     <div class="row">
                         <div class="col-md-5">
-                            <h1 class="h3">Persianas enrollables <br> y toldos <span class="dot"></span></h1>
+                            <h1 class="h3">Cortinas, persianas enrollables <br> y toldos <span class="dot"></span></h1>
                         </div>
                     </div>
     
@@ -663,4 +688,16 @@
     items:1,
   });
 </script>
+
+
+<script>
+    $('.gallery-carousel').owlCarousel({
+      loop:true,
+      margin:30,
+      nav:true,
+      dots:false,
+      items:1,
+    });
+  </script>
+
 @endpush

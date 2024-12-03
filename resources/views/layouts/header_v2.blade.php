@@ -3,7 +3,7 @@
         <div class="row align-items-center justify-content-end">
             <div class="col-md-4">
                 <ul class="list-inline social-icons">
-                    {{--  <li class="list-inline-item"><a target="_blank" href=""><ion-icon name="logo-tiktok"></ion-icon></a></li> --}}
+                    <li class="list-inline-item"><a target="_blank" href="https://www.tiktok.com/@grupo.hrleon"><ion-icon name="logo-tiktok"></ion-icon></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/grupohr.mx"><ion-icon name="logo-facebook"></ion-icon></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UC77T3jFaelEPYJ2LNukcdYA"><ion-icon name="logo-youtube"></ion-icon></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/grupo.hr/"><ion-icon name="logo-instagram"></ion-icon></a></li>

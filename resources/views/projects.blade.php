@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="project-title">
-                    <h3 class="h3 offset-title mb-5">Conoce <w>nuestro</w> portafolio <span class="dot"></span></h3>
+                    <h3 class="h3 offset-title mb-5">Conoce nuestro portafolio <span class="dot"></span></h3>
                     <p>Te compartimos algunos proyectos integrales de Cancelería tanto de Aluminio como de PVC, donde trabajamos de la mano de arquitectos y sus equipos o en ocasiones directamente con el cliente.</p>
                 </div>
             </div>
