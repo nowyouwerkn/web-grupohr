@@ -2,42 +2,43 @@
     <div class="container">
         <h2 class="body-large">Nuestros Proveedores</h2>
         <hr>
-    </div>
+    
 
-    <div class="owl-carousel client-carousel">
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/suppliers/logo-1.png') }}" alt="">
+        <div class="owl-carousel client-carousel">
+            <div class="item">
+                <div class="logo-wrap">
+                    <img src="{{ asset('img/suppliers/logo-1.png') }}" alt="">
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/suppliers/logo-2.png') }}" alt="">
+            <div class="item">
+                <div class="logo-wrap">
+                    <img src="{{ asset('img/suppliers/logo-2.png') }}" alt="">
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/suppliers/logo-3.png') }}" alt="">
+            <div class="item">
+                <div class="logo-wrap">
+                    <img src="{{ asset('img/suppliers/logo-3.png') }}" alt="">
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/suppliers/logo-4.jpg') }}" alt="">
+            <div class="item">
+                <div class="logo-wrap">
+                    <img src="{{ asset('img/suppliers/logo-4.jpg') }}" alt="">
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/suppliers/logo-5.jpg') }}" alt="">
+            <div class="item">
+                <div class="logo-wrap">
+                    <img src="{{ asset('img/suppliers/logo-5.jpg') }}" alt="">
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/suppliers/logo-6.png') }}" alt="">
+            <div class="item">
+                <div class="logo-wrap">
+                    <img src="{{ asset('img/suppliers/logo-6.png') }}" alt="">
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="logo-wrap">
-                <img src="{{ asset('img/suppliers/logo-7.jpg') }}" alt="">
+            <div class="item">
+                <div class="logo-wrap">
+                    <img src="{{ asset('img/suppliers/logo-7.jpg') }}" alt="">
+                </div>
             </div>
         </div>
     </div>

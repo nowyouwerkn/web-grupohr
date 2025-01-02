@@ -1249,6 +1249,7 @@ body.toggled .right-nav{
 
 .no-border-marquee .section-clients{
     padding: 50px 0px;
+    overflow-x: hidden;
 }
 
 /* Projects Page */

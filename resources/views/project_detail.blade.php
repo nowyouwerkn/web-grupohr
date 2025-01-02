@@ -86,4 +86,26 @@
 
 @push('scripts')
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Select the Masonry container
+        const masonryContainer = document.querySelector('[data-masonry]');
+        
+        // Ensure images are fully loaded before Masonry layout
+        const images = masonryContainer.querySelectorAll('img');
+        let loadedCount = 0;
+        const totalImages = images.length;
+
+        images.forEach((img) => {
+            img.onload = img.onerror = function () {
+                loadedCount++;
+                if (loadedCount === totalImages) {
+                    // Initialize Masonry when all images are loaded
+                    new Masonry(masonryContainer, JSON.parse(masonryContainer.getAttribute('data-masonry')));
+                }
+            };
+        });
+    });
+</script>
 @endpush

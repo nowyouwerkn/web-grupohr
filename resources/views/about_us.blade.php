@@ -332,7 +332,20 @@
       margin:30,
       nav:true,
       dots:false,
-      items:4,
+      responsive:{
+        0:{
+            items:1,
+            margin:60,
+        },
+        600:{
+            items:2,
+            margin:120,
+        },
+        1000:{
+            items:4,
+            margin:120,
+        }
+    }
     });
   </script>
 @endpush
