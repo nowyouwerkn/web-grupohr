@@ -6,7 +6,7 @@
 
 <style>
     .section-image-cover{
-        background: url(../img/projects/{{ $cover }}) !important;
+        background: url(../img/projects/{{ $slug . '/' . $cover }}) !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
         background-attachment: fixed !important;
@@ -34,24 +34,10 @@
 
 <section class="section-content pb-5 mb-0">
     <div class="container">
-        <div class="row align-items-center">
-            @foreach($gallery_main as $g_img)
-            <div class="col-sm-12 col-lg-6 mb-4">
-                <img width="100%" src="{{ asset('img/projects/' . $g_img['img']) }}" alt="{{ $g_img['title'] }}">
-            </div>
-            @endforeach
-        </div>
-        <div class="row align-items-center">
-            @foreach($gallery_secondary as $g_img)
-            <div class="col-sm-6 col-lg-6 mb-4">
-                <img width="100%" src="{{ asset('img/projects/' . $g_img['img']) }}" alt="{{ $g_img['title'] }}">
-            </div>
-            @endforeach
-        </div>
-        <div class="row align-items-center">
+        <div data-masonry='{"percentPosition": true }' class="row align-items-center">
             @foreach($gallery as $g_img)
             <div class="col-sm-6 col-lg-4 mb-4">
-                <img width="100%" src="{{ asset('img/projects/' . $g_img['img']) }}" alt="{{ $g_img['title'] }}">
+                <img width="100%" src="{{ asset('img/projects/' . $slug . '/' . $g_img['img']) }}" alt="{{ $g_img['title'] }}">
             </div>
             @endforeach
         </div>

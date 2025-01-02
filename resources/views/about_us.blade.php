@@ -15,6 +15,9 @@
         bottom: 135px !important;
     }
 
+    .process-carousel .owl-nav {
+        left: 30px;
+    }
 </style>
 @endpush
 
@@ -106,7 +109,7 @@
             <div class="col-md-5">
                 <div class="process-title">
                     <span>01</span>
-                    <h4 class="h4 mb-0"> Identificamos tus necesidades <span class="dot ms-0"></span></h4>
+                    <h4 class="h4 mb-0"> Identificamos tus necesidades y te asesoramos <span class="dot ms-0"></span></h4>
                 </div>
             </div>
 
@@ -115,7 +118,16 @@
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
                     <p>Juntos, nos esforzamos por crear soluciones para tu proyecto que no solo satisfagan tus necesidades, sino que también superemos tus expectativas en términos de diseño y calidad.</p>
-                    <img src="{{ asset('img/process-1.webp') }}" alt="">
+
+                    <div class="owl-carousel process-carousel">
+                        <div class="item">
+                            <img src="{{ asset('img/process-0.png') }}" alt="">
+                        </div>
+                
+                        <div class="item">
+                            <img src="{{ asset('img/process-1.png') }}" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -124,7 +136,7 @@
             <div class="col-md-5">
                 <div class="process-title">
                     <span>02</span> 
-                    <h4 class="h4 mb-0">Cotizamos y asesoramos <span class="dot ms-0"></span></h4>
+                    <h4 class="h4 mb-0">Diseñamos tu propuesta y te cotizamos <span class="dot ms-0"></span></h4>
                 </div>
             </div>
 
@@ -133,7 +145,7 @@
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
                     <p>Con nuestra pasión por la innovación y nuestro compromiso con la excelencia, trabajamos en las soluciones que transformen y eleven el valor de tus espacios. Escuchando siempre tus necesidades, adaptándonos a tu presupuesto y asesorando para que tengas la mejor inversión.</p>
-                    <img src="{{ asset('img/process-2.webp') }}" alt="">
+                    <img src="{{ asset('img/process-2.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -151,7 +163,16 @@
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
                     <p>Una vez aprobada la propuesta económica y de diseño... ¡manos a la obra! Nuestro equipo se encargará de fabricar cada pieza de tu pedido con la más alta calidad y posteriormente pasaremos a la instalación de las mismas con el compromiso de cuidar cada detalle.</p>
-                    <img src="{{ asset('img/process-3.webp') }}" alt="">
+                    
+                    <div class="owl-carousel process-carousel">
+                        <div class="item">
+                            <img src="{{ asset('img/process-3.png') }}" alt="">
+                        </div>
+                
+                        <div class="item">
+                            <img src="{{ asset('img/process-4.png') }}" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,8 +189,8 @@
 
             <div class="col-md-5 offset-md-2">
                 <div class="process-info">
-                    <p>Una vez aprobada la propuesta económica y de diseño... ¡manos a la obra! Nuestro equipo se encargará de fabricar cada pieza de tu pedido con la más alta calidad y posteriormente pasaremos a la instalación de las mismas con el compromiso de cuidar cada detalle.</p>
-                    <img src="{{ asset('img/process-3.webp') }}" alt="">
+                    <p>Ya concluido nuestro trabajo... ¡no nos vamos hasta que estés conforme con nuestro trabajo! Atendiendo todos los detalles que por obra se necesiten y comprometidos con respaldar las garantías con las que cuentan tus productos.</p>
+                    <img src="{{ asset('img/process-5.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -291,6 +312,19 @@
     items:1,
   });
 </script>
+
+<script>
+    $('.process-carousel').owlCarousel({
+        loop:true,
+        margin:15,
+        nav:true,
+        dots:false,
+        items:1,
+        autoplay:true,
+        autoplayTimeout:2500,
+        autoplayHoverPause:true
+    });
+  </script>
 
 <script>
     $('.reels-carousel').owlCarousel({

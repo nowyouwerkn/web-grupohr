@@ -25,7 +25,8 @@
     <div class="owl-carousel intro-carousel">
         <div class="item">
             <div class="banner">
-                <img src="{{ asset('img/banner-1.jpg') }}" alt="">
+                <img class="img-desktop" src="{{ asset('img/banner-1.png') }}" alt="">
+                <img class="img-responsive" src="{{ asset('img/banner-1-res.png') }}" alt="">
                     
                 <div class="banner-info">
                     <span class="big-num display-1 outline-text">01</span>
@@ -36,7 +37,8 @@
 
         <div class="item">
             <div class="banner">
-                <img src="{{ asset('img/banner-2.jpg') }}" alt="">
+                <img class="img-desktop" src="{{ asset('img/banner-2.png') }}" alt="">
+                <img class="img-responsive" src="{{ asset('img/banner-2-res.png') }}" alt="">
                     
                 <div class="banner-info">
                     <span class="big-num display-1 outline-text">02</span>
@@ -47,7 +49,8 @@
 
         <div class="item">
             <div class="banner">
-                <img src="{{ asset('img/banner-3.jpg') }}" alt="">
+                <img class="img-desktop" src="{{ asset('img/banner-3.png') }}" alt="">
+                <img class="img-responsive" src="{{ asset('img/banner-3-res.png') }}" alt="">
                     
                 <div class="banner-info">
                     <span class="big-num display-1 outline-text">03</span>
@@ -687,17 +690,13 @@
     dots:false,
     items:1,
   });
+
+  $('.gallery-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+    dots:false,
+    items:1,
+  });
 </script>
-
-
-<script>
-    $('.gallery-carousel').owlCarousel({
-      loop:true,
-      margin:30,
-      nav:true,
-      dots:false,
-      items:1,
-    });
-  </script>
-
 @endpush
