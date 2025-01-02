@@ -1457,6 +1457,12 @@ footer .social-icons{
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    .gallery-carousel .owl-stage-outer,
+    .reels-carousel .owl-stage-outer,
+    .product-carousel .owl-stage-outer{
+        overflow: hidden;
+    }
+
     .img-desktop{
         display: none !important;
     }
