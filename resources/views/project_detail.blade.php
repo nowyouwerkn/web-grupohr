@@ -18,7 +18,7 @@
 
 @section('content')
 
-<section class="section-image-cover">
+<section class="section-image-cover project-cover">
     <div class="container position-relative">
         <div class="row">
             <div class="col-md-6">

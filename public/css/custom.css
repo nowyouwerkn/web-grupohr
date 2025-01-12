@@ -1845,6 +1845,18 @@ footer .social-icons{
     .testimonial-project-carousel .owl-nav{
         bottom: 40px;
     }
+
+    .project-cover{
+        padding-bottom: 0px !important;
+    }
+
+    .project-cover .offset-title{
+        padding-bottom: 40vh;
+    }
+
+    .project-cover .content-block-overlay{
+        bottom: 0px !important;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
