@@ -253,43 +253,29 @@
             <div class="owl-carousel reels-carousel">
                 <div class="item">
                     <div class="gallery-image-wrap">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/LoJYE3D3Kqo?si=hbB6iPvSSUmqZZOo" frameborder="0" allow="none" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="100%" height="500" src="https://player.vimeo.com/video/1045077471?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="AMAMOS EL PROCESO"></iframe>
+                        <script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
                 </div>
         
                 <div class="item">
                     <div class="gallery-image-wrap">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="100%" height="500" src="https://player.vimeo.com/video/1045075587?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="CONOCE NUESTRAS INSTALACIONES"></iframe>
+                        <script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="gallery-image-wrap">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="100%" height="500" src="https://player.vimeo.com/video/1045070150?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="PROYECTO DE CANCELERÍA PVC Y TEMPLADOS"></iframe>
+                        <script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="gallery-image-wrap">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="gallery-image-wrap">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="gallery-image-wrap">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="gallery-image-wrap">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="100%" height="500" src="https://player.vimeo.com/video/1045067145?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="BACK ON TRACK 2025!"></iframe>
+                        <script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
                 </div>
             </div>
@@ -317,35 +303,45 @@
     $('.process-carousel').owlCarousel({
         loop:true,
         margin:15,
-        nav:true,
         dots:false,
         items:1,
         autoplay:true,
         autoplayTimeout:2500,
-        autoplayHoverPause:true
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                nav:false,
+            },
+            600:{
+                nav:false,
+            },
+            1000:{
+                nav:true,
+            }
+        }
     });
   </script>
 
 <script>
     $('.reels-carousel').owlCarousel({
-      loop:true,
-      margin:30,
-      nav:true,
-      dots:false,
-      responsive:{
-        0:{
-            items:1,
-            margin:60,
-        },
-        600:{
-            items:2,
-            margin:120,
-        },
-        1000:{
-            items:4,
-            margin:120,
+        loop:true,
+        margin:30,
+        nav:true,
+        dots:false,
+        responsive:{
+            0:{
+                items:1,
+                margin:60,
+            },
+            600:{
+                items:2,
+                margin:60,
+            },
+            1000:{
+                items:4,
+                margin:60,
+            }
         }
-    }
     });
   </script>
 @endpush

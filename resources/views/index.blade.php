@@ -22,6 +22,7 @@
 
 @section('content')
 <section class="section-intro">
+    <div class="overlay"></div>
     <div class="owl-carousel intro-carousel">
         <div class="item">
             <div class="banner">
