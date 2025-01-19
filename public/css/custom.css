@@ -267,6 +267,23 @@ a:hover {
     width: 200px;
 }
 
+.nav .logo{
+    background: url("../img/logo_white.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 90px;
+    position: relative;
+    display: inline-block;
+}
+
+.hide-text {
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .nav .social-icons{
     margin-right: 30px;
 }
@@ -308,6 +325,18 @@ a:hover {
 .nav.scroll svg path{
     fill: var(--black);
     stroke: var(--black) !important;
+}
+
+.nav.scroll .logo{
+    background: url("../img/logo_black.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 67px;
+    position: relative;
+    display: inline-block;
+    top: 5px;
 }
 
 .nav.scroll .brand-color{
@@ -1808,6 +1837,7 @@ footer .social-icons{
     .timeline{
         left: 23px;
         transform: initial;
+        height: 110%;
     }
 
     .timeline-dot{

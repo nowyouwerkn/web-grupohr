@@ -61,7 +61,8 @@
         <div class="owl-carousel gallery-carousel">
             <div class="item">
                 <div class="gallery-image-wrap">
-                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/LoJYE3D3Kqo?si=hbB6iPvSSUmqZZOo" frameborder="0" allow="none" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="100%" height="720" src="https://player.vimeo.com/video/1047599390?h=301d31ca01&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="GRUPO HR - VIDEO CORPORATIVO"></iframe>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
                     
                     {{--  
                     <img src="{{ asset('img/product-placeholder.png') }}" alt="">
@@ -75,7 +76,8 @@
     
             <div class="item">
                 <div class="gallery-image-wrap">
-                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="100%" height="720" src="https://player.vimeo.com/video/1047599738?h=f2068e2985&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="SHOWROOMS GRUPO HR"></iframe>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
                 </div>
     
                 <div class="gallery-info">

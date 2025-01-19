@@ -186,28 +186,30 @@
                     <h6 class="body-large bold text-uppercase">Fábrica, Showroom y<br> Oficinas <span>León</span></h6>
                     <p><a href="https://maps.app.goo.gl/CHfyRXSvP3BGS3zM8" target="_blank">Calle La Zorra 109, Col. Granja Ceres, C.P. 37289 León, Gto. México. <ion-icon name="arrow-forward-outline"></ion-icon></a></p>
                     <p><a href="tel:4773908382">(477) 390 8382</a></p>
-                    <p><a href="https://api.whatsapp.com/send?phone=+524775579885">(477) 557 9885</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=+524775579885"><ion-icon name="logo-whatsapp" class="whatsapp-green"></ion-icon> (477) 557 9885</a></p>
                     <br>
                     <h6 class="body-large bold text-uppercase">Showroom <br><span>San Miguel de Allende</span></h6>
                     <p><a href="https://maps.app.goo.gl/xQsE9VRrxAjzZvXP9" target="_blank">Camino Alcocer s/n, Jardines de Allende. San Miguel de Allende, Gto. México. <ion-icon name="arrow-forward-outline"></ion-icon></a></p>
-                    <p><a href="https://api.whatsapp.com/send?phone=+524151032024">(415) 103 2024</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=+524151032024"><ion-icon name="logo-whatsapp" class="whatsapp-green"></ion-icon> (415) 103 2024</a></p>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <div class="container">
         <div class="row">
             <div class="owl-carousel gallery-carousel">
                 <div class="item">
                     <div class="gallery-image-wrap">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/LoJYE3D3Kqo?si=hbB6iPvSSUmqZZOo" frameborder="0" allow="none" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="100%" height="720" src="https://player.vimeo.com/video/1047599390?h=301d31ca01&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="GRUPO HR - VIDEO CORPORATIVO"></iframe>
+                        <script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="gallery-image-wrap">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/AaRqPtJplOw?si=s8ZKcpCzjxv42m95" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="100%" height="720" src="https://player.vimeo.com/video/1047599738?h=f2068e2985&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="SHOWROOMS GRUPO HR"></iframe>
+                        <script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
                 </div>
             </div>

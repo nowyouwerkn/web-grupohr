@@ -7,6 +7,17 @@
         stroke: var(--black) !important;
     }
 
+    .nav .logo{
+        background: url("../img/logo_black.png") !important;
+        background-position: center center !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        width: 200px !important;
+        height: 90px;
+        position: relative !important;
+        display: inline-block !important;
+    }
+
     .nav .brand-color{
         fill: var(--main) !important;
         stroke: var(--main) !important;
