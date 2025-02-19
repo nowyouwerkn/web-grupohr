@@ -322,7 +322,7 @@
             }
         }
     });
-  </script>
+</script>
 
 <script>
     $('.reels-carousel').owlCarousel({

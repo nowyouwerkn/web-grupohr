@@ -32,6 +32,46 @@
     @stack('styles')
 
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+
+    <style>
+      .ten-year-logo{
+        position: fixed;
+        top: 160px;
+        right: 60px;
+        z-index: 9999;
+        width: 200px;
+        height: 200px;
+        background-color: #fff;
+        padding: 0px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin: 0px;
+        transition: all 0.3s ease;
+      }
+
+      .ten-year-logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .ten-year-logo.scroll{
+        width: 100px;
+        height: 100px;
+        top: 120px;
+      }
+
+      /* Small Devices, Tablets */
+      @media only screen and (max-width : 768px) {
+        .ten-year-logo{
+          width: 120px;
+          height: 120px;
+          top: 160px;
+          right: 30px;
+        }
+      }
+    </style>
 </head>
 
   <!-- Google tag (gtag.js) -->
@@ -49,6 +89,10 @@
         <a href="https://api.whatsapp.com/send?phone=+524775579885&text=¡Buen día, tengo preguntas de su servicio!" target="_blank" id="contactBtnCode" class="floating-whatsapp">
           <ion-icon name="logo-whatsapp" style="color: #ffffff;"></ion-icon>
         </a>
+
+        <div class="ten-year-logo">
+          <img src="{{ asset('img/logo_10_years.jpeg') }}" alt="">
+        </div>
         
         @if(request()->is('/'))
           @include('layouts.header_v2')

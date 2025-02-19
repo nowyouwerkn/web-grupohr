@@ -2,8 +2,10 @@
 $(window).on("scroll", function () {
   if ($(window).scrollTop() > 300) {
     $(".nav").addClass("scroll");
+    $(".ten-year-logo").addClass("scroll");
   } else {
     $(".nav").removeClass("scroll");
+    $(".ten-year-logo").removeClass("scroll");
   }
 });
 
