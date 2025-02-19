@@ -23,7 +23,7 @@
     <meta property="og:title" content="Grupo HR">
     <meta property="og:description" content="Proporcionar un servicio integral en el ramo de la construcción, proveyendo servicios y productos para satisfacer las necesidades de nuestros clientes a través de la experiencia de nuestro equipo de trabajo y la calidad de nuestros productos.">
     <meta property="og:url" content="www.grupohr.mx">
-    <meta property="og:image" content="www.grupohr.mx/tile-wide.png">
+    <meta property="og:image" content="www.grupohr.mx/img/logo_10_years.jpeg">
     
     <link rel="canonical" href="http://www.grupohr.mx">
 
