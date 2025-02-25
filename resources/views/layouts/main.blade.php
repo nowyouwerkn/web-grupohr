@@ -9,13 +9,12 @@
     <meta name="description" content="Proporcionar un servicio integral en el ramo de la construcción, proveyendo servicios y productos para satisfacer las necesidades de nuestros clientes a través de la experiencia de nuestro equipo de trabajo y la calidad de nuestros productos.">
     <meta name="keywords" content="diseño, interiores, diseño de interiores">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1c1917">
-    <meta name="msapplication-TileColor" content="#1c1917">
-    <meta name="theme-color" content="#1c1917">    
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Grupo HR" />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <meta property="og:type" content="website">
     <meta property="og:image:height" content="266">

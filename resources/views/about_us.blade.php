@@ -225,12 +225,12 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="d-flex align-items-end">
-                    <h3 class="hiper-big outline-text display-1">9</h3>
+                    <h3 class="hiper-big outline-text display-1">10</h3>
                     <h3 class="h3">años de proyectos <span class="dot"></span></h3>
                 </div>
             </div>
             <div class="col-md-6">
-                <p class="body-regular mb-4">¡Crecemos por y para tí! Gracias por ser parte de estos 9 años!</p>
+                <p class="body-regular mb-4">¡Crecemos por y para tí! Gracias por ser parte de estos 10 años!</p>
                 <div class="row">
                     <div class="col-md-4">
                         <h5 class="h5 mb-0">60+</h5>
