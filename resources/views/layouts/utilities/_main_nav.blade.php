@@ -53,7 +53,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h6 class="body-large bold text-uppercase">LEÓN, GTO.</h6>
-                        <p>Granjas Ceres 109, 37289. León, Gto. México.</p>
+                        <p>Zorra 109 Granjas Ceres, 37289. León, Gto. México.</p>
                         <p class="mb-0"><a href="tel:4773908382"><ion-icon name="phone-portrait-outline"></ion-icon> (477) 390 83 82</a></p>
                         <p><a href="https://api.whatsapp.com/send?phone=+524775579885&text=¡Buen día, tengo preguntas de su servicio!" target="_blank"><ion-icon name="logo-whatsapp" class="whatsapp-green"></ion-icon> (477) 557 98 85</a></p>
                     </div>
